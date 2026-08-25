@@ -1,0 +1,95 @@
+.impressum .container {
+  grid-template-areas:
+    "header-l header-r"
+    "main-l main-l"
+    "footer-l footer-r";
+}
+
+.impressum .main-l {
+  grid-area: main-l;
+}
+
+
+
+#impressum-content {
+    grid-area: main-l;
+padding-left: 7vw;
+padding-right: 30vw;
+}
+
+
+
+
+
+/* =================================
+   MOBILE LANDSCAPE
+================================= */
+
+
+@media (max-width: 900px) and (orientation: landscape) {
+  :root {
+    --font-size-nav: 4vh;
+    --font-size-body: 3vh;
+  }
+
+
+  .main-l{
+    font-size: var(--font-size-body);
+    padding-left: 11vw !important;
+    padding-bottom: 8vh;
+  }
+
+  .container{
+    grid-template-rows: auto auto auto;
+  }
+
+}
+
+
+/* =================================
+   MOBILE PORTRAIT
+================================= */
+
+@media (max-width: 900px) and (orientation: portrait) {
+
+  body.impressum .container {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto 1fr auto auto !important;
+
+    grid-template-areas:
+      "header-l"
+      "header-r"
+      "main-l"
+      "footer-l"
+      "footer-r" !important;
+  }
+
+  body.impressum .header-l {
+    grid-area: header-l !important;
+  }
+
+  body.impressum .header-r {
+    grid-area: header-r !important;
+  }
+
+  body.impressum .main-l {
+    grid-area: main-l !important;
+  }
+
+  body.impressum .footer-l {
+    grid-area: footer-l !important;
+  }
+
+  body.impressum .footer-r {
+    grid-area: footer-r !important;
+  }
+
+
+body.impressum .main-l {
+  padding-left: 4vw !important;
+  padding-right: 10vw !important;
+
+}
+
+}

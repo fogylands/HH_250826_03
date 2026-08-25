@@ -1,0 +1,290 @@
+/* =================================
+   FONTS
+================================= */
+
+@font-face {
+  font-family: 'OpenSans_Regular';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'OpenSans_Light';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Light.ttf') format('truetype');
+}
+
+
+/* =================================
+   VARIABLES
+================================= */
+
+:root {
+
+  --font-size-nav:2vh;
+  --font-size-body: 1.5vh;
+
+
+}
+
+
+
+
+/* =================================
+   RESET
+================================= */
+
+* {
+  box-sizing: border-box;
+  cursor: none !important;
+}
+
+
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'OpenSans_Light', monospace;
+  font-style: normal;
+}
+
+
+
+/* =================================
+   BODY
+================================= */
+
+body {
+
+  font-size: var(--font-size-body);
+  background-color: #F2F2F2;
+
+  letter-spacing: 0.08em;
+
+}
+
+
+/* =================================
+   LINKS
+================================= */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+a:hover,
+a.active {
+  color: #457d08
+}
+
+
+
+/* =================================
+   CONTAINER GRID
+================================= */
+
+.container {
+
+  display: grid;
+
+  grid-template-areas:
+    "header-l header-r"
+    "main main";
+
+  grid-template-columns:
+    1fr 1fr;
+
+  height: 100%;
+
+
+}
+
+
+
+/* =================================
+   GRID AREAS
+================================= */
+
+
+.header-l {
+  grid-area: header-l;
+}
+
+
+.header-r {
+  grid-area: header-r;
+}
+
+
+.main {
+  grid-area: main;
+}
+
+
+
+/* =================================
+   HEADER
+================================= */
+.header-l,
+.header-r {
+  font-size: var(--font-size-nav);
+  padding-top: 2vh;
+  letter-spacing: 0.34em;
+
+}
+
+.header-l {
+  font-family: 'Opensans_Regular';
+  padding-left: 8vw;
+ letter-spacing: 0.34em;
+}
+
+
+.header-r {
+  text-align: right;
+  padding-right: 2vw;
+    margin-right: -0.34em;
+}
+
+
+
+
+
+
+/* =================================
+   MAIN
+================================= */
+
+
+.main {
+
+  padding: 2vh 2vw;
+
+}
+
+
+
+
+
+/* =================================
+   FOOTER
+================================= */
+
+.footer-l,
+.footer-r {
+  padding-bottom:2vh;
+  padding-left:  2vw;
+  padding-right: 2vw;
+  display:flex;
+  align-items:flex-end;
+  text-transform: uppercase;
+}
+
+.footer-r {
+  justify-content:flex-end;
+}
+
+
+.footer-l {
+  padding-left: 8vw;
+}
+
+
+
+
+
+
+
+
+/* =================================
+   CURSOR
+================================= */
+
+
+#cursor-cross {
+
+  position:fixed;
+  top:0;
+  left:0;
+
+  width:100%;
+  height:100%;
+
+  pointer-events:none;
+  z-index:9999;
+
+}
+
+
+.cursor-vertical {
+
+  position:absolute;
+
+  top:0;
+
+  width:2px;
+  height:100%;
+
+  background:#457d08
+
+}
+
+
+.cursor-horizontal {
+
+  position:absolute;
+
+  left:0;
+
+  width:100%;
+  height:2px;
+
+  background:#457d08
+
+}
+
+
+
+/* =================================
+   VIDEO BACKGROUND
+================================= */
+
+
+.video-bg {
+
+  position:fixed;
+
+  top:0;
+  left:0;
+
+  width:100vw;
+  height:100vh;
+
+  object-fit:cover;
+
+  z-index:-1;
+
+  pointer-events:none;
+
+}
+
+
+.video-bg {
+
+  opacity:0;
+  transition:opacity .4s ease;
+
+}
+
+
+.video-bg.is-loaded {
+
+  opacity:1;
+
+}
+

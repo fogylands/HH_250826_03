@@ -1,0 +1,8 @@
+Lorem ipsum
+<br>
+
+
+Ort: Bern
+Zeitraum: 2020-2021
+Art: Konzeptstudie
+Status: Abgeschlossen

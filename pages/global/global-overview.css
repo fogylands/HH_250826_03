@@ -1,0 +1,78 @@
+
+
+/* =================================
+   GLOBAL GRID
+================================= */
+
+.container {
+
+   grid-template-areas:
+    "header-l header-r"
+    "main main"
+    "footer-l footer-r";
+
+  grid-template-rows:
+
+    10vh 1fr 10vh;
+}
+
+
+
+
+
+
+
+/* =================================
+   GRID AREAS
+================================= */
+
+
+
+.footer-l {
+  grid-area: footer-l;
+}
+
+
+.footer-r {
+  grid-area: footer-r;
+}
+
+
+
+
+/* =================================
+   HEADER
+================================= */
+
+
+
+
+
+
+/* =================================
+   MAIN
+================================= */
+
+
+
+.main-l, .main-r {
+
+  padding: 2vh 2vw;
+
+}
+
+
+
+
+
+/* =================================
+   FOOTER
+================================= */
+
+
+
+.footer-l {
+  grid-area: footer-l;
+  text-align: left;
+}
+

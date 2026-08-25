@@ -1,0 +1,9 @@
+Lorem ipsum
+<br>
+
+
+Ort: Lenzerheide
+Zeitraum: 2017
+Art: Umbau, Direktauftrag
+Status: Realisiert
+Nummer: NEIN

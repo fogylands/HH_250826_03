@@ -1,0 +1,225 @@
+
+/* =================================
+   GLOBAL GRID
+================================= */
+
+.container {
+
+  grid-template-rows:
+    10vh 1fr;
+}
+
+
+
+
+/* =================================
+   GRID AREAS
+================================= */
+
+
+.navSide {
+  grid-area: navSide;
+}
+
+.navL {
+  grid-area: navL;
+}
+
+.navR {
+  grid-area: navR;
+}
+
+
+
+
+
+.mainSide {
+  grid-area: mainSide;}
+
+.mainL {
+  grid-area: mainL;
+}
+
+.mainR {
+  grid-area: mainR;}
+
+
+.detailsSide {
+  grid-area: detailsSide;
+}
+
+.detailsL {
+  grid-area: detailsL;
+}
+
+.detailsR {
+  grid-area: detailsR;
+}
+
+
+
+
+
+
+
+
+/* =================================
+   MAIN GRID AREAS
+================================= */
+.main {
+  display: grid;
+
+  grid-template-areas:
+    "navSide navL navR"
+    "mainSide mainL mainR"
+    "detailsSide detailsL detailsR";
+
+  grid-template-columns:
+    4vw minmax(0, auto) minmax(500px, 1fr);
+
+grid-template-rows:
+  5vh auto minmax(10vh, 1fr);
+
+  gap: 2vh 2vw;
+
+  align-items: start;
+  min-height: 0;
+}
+
+
+.mainSide {
+  display:flex;
+  align-items:flex-end;
+
+  height:100%;
+}
+
+.mainR {
+  min-width: 20vw;
+  min-height: 0;
+}
+
+
+/* =================================
+   DETAILS GRID AREAS
+================================= */
+
+
+
+.detailsSide {
+  display:flex;
+
+  align-items:flex-end;
+
+  height:100%;
+
+  overflow:visible;
+
+  white-space:nowrap;
+
+  font-size: var(--font-size-nav);
+
+}
+
+
+
+
+
+.detailsR {
+  height:100%;
+  text-align:right;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:flex-end;
+
+}
+
+
+
+/* =================================
+   MAIN CONTENT
+================================= */
+
+
+.main-l,
+.main-r {
+
+  gap:0 2vw;
+
+}
+
+.main-l {
+  width: auto;
+  aspect-ratio: 4 / 3;
+  height: 100%;
+  max-height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.main-r {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 20vw;
+  min-height: 0;
+
+
+}
+
+/* =================================
+   PROJECT TITLE
+================================= */
+
+
+.project-name {
+
+  writing-mode:vertical-rl;
+
+  transform:rotate(180deg);
+
+  display:block;
+
+}
+
+
+
+/* =================================
+   GALLERY
+================================= */
+
+
+.project-content,
+.project-gallery,
+.project-image {
+
+  width:100%;
+
+  height:100%;
+
+}
+
+
+
+.project-gallery {
+
+  overflow:hidden;
+
+  aspect-ratio:unset;
+
+}
+
+
+
+.project-image {
+
+  object-fit:cover;
+
+}
+
+
+

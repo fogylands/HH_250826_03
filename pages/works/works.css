@@ -1,0 +1,515 @@
+body.works .projects-wrapper {
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(5, max-content);
+    justify-content: space-between;
+
+}
+
+body.works .work-row {
+
+  display: contents;
+
+}
+
+body.works .work-row [data-column] {
+  padding-top:1vh;
+  display:flex;
+  align-items:center;
+}
+.view-nav {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  font-size: 2vh;
+}
+
+
+.view-nav-r{
+  padding-bottom: 2vh;
+}
+
+
+
+/* =================================
+   FONTS
+================================= */
+
+@font-face {
+  font-family: 'OpenSans_Regular';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans_Light';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Light.ttf') format('truetype');
+}
+
+
+/* =================================
+   VARIABLES
+================================= */
+
+:root {
+
+  --font-size-nav: 2vh;
+  --font-size-body: 1.4vh;
+
+}
+
+
+/* =================================
+   RESET
+================================= */
+
+* {
+  box-sizing: border-box;
+  cursor: none !important;
+}
+
+
+html,
+body {
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'OpenSans_Light', monospace;
+  font-style: normal;
+
+}
+
+
+/* =================================
+   BODY
+================================= */
+
+body {
+
+  font-size: var(--font-size-nav);
+  background-color: #F2F2F2;
+
+  letter-spacing: 0.08em;
+
+}
+
+
+/* =================================
+   LINKS
+================================= */
+
+a {
+
+  text-decoration: none;
+  color: black;
+  
+
+}
+
+a:hover {
+
+ color:#457d08
+
+}
+
+
+
+a.active {
+
+ color: #457d08
+
+}
+
+
+
+.sort-header span {
+  color: transparent;
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.sort-header.column-hover span {
+  color: #457d08
+}
+
+.sort-header span.selected {
+  color: #457d08
+}
+
+.header-row .sort-header.column-hover span {
+  color:#457d08
+}
+
+
+
+/* =================================
+   GLOBAL GRID
+================================= */
+
+.container {
+
+  display: grid;
+
+  grid-template-areas:
+
+    "header-l header-r"
+    "view-nav view-nav"
+    "main main"
+    "footer-l footer-r";
+
+
+  grid-template-columns:
+
+    1fr 1fr;
+
+
+  height: 100vh;
+  grid-template-rows:
+
+    10vh  10vh 1fr;
+
+
+  
+
+}
+
+
+/* =================================
+   GRID AREAS
+================================= */
+
+
+.header-l {
+  grid-area: header-l;
+  font-family: 'Opensans_Regular';
+  letter-spacing: 34%;
+
+}
+
+
+.header-r {
+  grid-area: header-r;
+  letter-spacing: 34%;
+}
+
+
+.main {
+  grid-area: main;
+    width:calc(100% - 5vw);
+text-transform: uppercase;
+  margin-left:5vw;
+  font-size: var(--font-size-body);
+}
+
+
+.footer-l {
+  grid-area: footer-l;
+}
+
+
+.footer-r {
+  grid-area: footer-r;
+}
+
+
+.view-nav {
+  grid-area: view-nav;
+
+  display:flex;
+  justify-content:space-between;
+  font-size: 2vh;
+  padding:2vh 2vw;
+  margin-left:5vw;
+  width:calc(100% - 5vw);
+
+
+}
+
+
+
+/* =================================
+   HEADER
+================================= */
+
+
+.header-l,
+.header-r {
+
+  font-size: var(--font-size-nav);
+  padding: 2vh 2vw;
+
+}
+
+
+.header-r {
+
+  text-align:right;
+
+}
+
+ 
+
+  .header-l {
+
+   padding-left: 7vw;
+
+}
+
+
+/* =================================
+   MAIN
+================================= */
+
+
+
+
+
+.main-l {
+
+  padding: 2vh 2vw;
+
+}
+
+
+.main-r {
+
+  padding: 2vh 2vw;
+
+}
+
+
+.work-link {
+  display: contents;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+
+
+/* =================================
+   FOOTER
+================================= */
+
+.footer-l,
+.footer-r {
+  padding:2vh 2vw;
+  display:flex;
+  align-items:flex-end;
+}
+
+.footer-r {
+  justify-content:flex-end;
+}
+
+
+/* =================================
+   CURSOR
+================================= */
+
+
+#cursor-cross {
+
+  position:fixed;
+  top:0;
+  left:0;
+
+  width:100%;
+  height:100%;
+
+  pointer-events:none;
+  z-index:9999;
+
+}
+
+
+.cursor-vertical {
+
+  position:absolute;
+
+  top:0;
+
+  width:2px;
+  height:100vh;
+
+  background:#457d08
+
+}
+
+
+.cursor-horizontal {
+
+  position:absolute;
+
+  left:0;
+
+  width:100vw;
+  height:2px;
+
+  background:#457d08
+
+}
+
+
+/* =================================
+   VIDEO BACKGROUND
+================================= */
+
+
+.video-bg {
+
+  position:fixed;
+
+  top:0;
+  left:0;
+
+  width:100vw;
+  height:100vh;
+
+  object-fit:cover;
+
+  z-index:-1;
+
+  pointer-events:none;
+
+}
+
+
+.video-bg {
+
+  opacity:0;
+  transition:opacity .4s ease;
+
+}
+
+
+.video-bg.is-loaded {
+
+  opacity:1;
+
+}
+
+
+
+/* =================================
+   MOBILE LANDSCAPE
+================================= */
+@media (max-width: 950px) and (orientation: landscape) {
+
+:root {
+  --font-size-nav: 4vh;
+  --font-size-body: 6vh;
+}
+
+
+.header-l,
+.header-r,
+.main,
+.footer-l,
+.footer-r {
+padding-left:vw ;
+    letter-spacing: 0.08em;
+
+font-size: var(--font-size-nav);
+
+}
+
+
+.header-l{
+  padding-left: 11vw;
+}
+  .view-nav {
+
+    font-size: var(--font-size-nav);
+
+    padding-left: 6vw;
+
+  }
+
+
+  .main{
+    padding-left: 6vw;
+  }
+
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    body.works .container {
+    grid-template-areas:
+      "header-l"
+      "header-r"
+      "view-nav"
+      "main"
+      "footer-l"
+      "footer-r";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr auto auto;
+    padding-left: 8vw;
+  }
+
+
+    body.works .header-l {
+    grid-area: header-l;
+    padding-bottom: 0vh;
+  }
+
+ body.works .header-r {
+  grid-area: header-r;
+  text-align: left;
+  padding-left: 7vw;
+    padding-top: 0vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+
+
+
+  body.works .projects-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  body.works .work-row {
+    min-width: 1800px;
+  }
+
+
+  body.works .main {
+  width: 100%;
+  margin-left: 5vw;
+  min-width: 0;
+  overflow: visible;
+  padding-top: 0%;
+}
+
+
+body.works .container {
+  width: 100%;
+  max-width: 95vw;
+  overflow-x: visible;
+}
+
+
+
+.view-nav {
+
+
+
+  padding-bottom: 0;
+  padding-top: 0;
+
+
+}
+
+}

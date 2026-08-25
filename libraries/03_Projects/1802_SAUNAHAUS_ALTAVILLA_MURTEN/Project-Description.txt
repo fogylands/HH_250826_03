@@ -1,0 +1,8 @@
+Lorem ipsum
+<br>
+
+
+Ort: Murten
+Zeitraum: 2020-2025
+Art: Direktauftrag
+Status: Realisiert

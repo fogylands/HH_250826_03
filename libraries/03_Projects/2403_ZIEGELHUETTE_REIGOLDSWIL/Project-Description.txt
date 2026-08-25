@@ -1,0 +1,8 @@
+Lorem ipsum
+<br>
+
+
+Ort: Reigoldswil
+Zeitraum: 2024-2025
+Art: Umbau
+Status: Realisiert

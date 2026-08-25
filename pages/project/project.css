@@ -1,0 +1,469 @@
+
+
+
+
+
+
+/* DESKTOP */
+.main {
+  grid-template-areas:
+    "navSide navL navR"
+    "mainSide mainL projectText"
+    "detailsSide detailsL detailsL";
+}
+
+
+
+
+/* =================================
+   MAIN GRID
+================================= */
+
+.navL {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  min-width: 0;
+}
+
+.main-l {
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+  align-self: start;
+
+
+}
+
+
+
+.project-text {
+  grid-area: projectText;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  height: auto;
+  padding-right: 0;
+  overflow-y: auto;
+  overflow-x: visible;
+
+}
+
+.main-r::-webkit-scrollbar {
+  display: none;
+}
+
+.mainSide {
+
+  grid-area:mainSide;
+
+  display:flex;
+
+  align-items:flex-end;
+
+  height:100%;
+    overflow: visible;
+ justify-content: flex-end;
+}
+
+.project-middle {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.project-description {
+  margin-top:auto;
+}
+
+
+
+.project-name {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: block;
+  white-space: nowrap;
+  overflow: visible;
+  font-size: var(--font-size-nav);
+    margin-left: auto;
+}
+
+
+.project-header {
+  display: flex;
+
+  justify-content: flex-end; /* right */
+  align-items: flex-end;    /* bottom */
+}
+
+
+
+
+.project-nav {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+}
+
+
+
+
+.project-content,
+.project-gallery {
+  width: 100%;
+  height: 100%;
+}
+
+.project-image {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-image.active {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* =================================
+   RIGHT SIDE
+================================= */
+.project-credits {
+  padding-left: 8vw;
+  padding-bottom: 8vh;
+  text-transform: uppercase;
+}
+
+
+
+.project-description {
+  padding-left: 0;
+  margin-top: 0;
+  padding-bottom: 10vh;
+  padding-right: 20vw;
+  padding-top: 5vh;
+}
+
+
+
+.detailsL {
+  width: 100%;
+  min-width: 0;
+}
+
+
+
+
+
+
+.project-title{
+  font-size: 2vh;
+ line-height: 0.5vh;
+}
+
+.project-text {
+  grid-area: projectText;
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.project-text::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* =================================
+   MOBILE LANDSCAPE
+================================= */
+
+
+@media (max-width: 950px) and (orientation: landscape) {
+
+  :root {
+    --font-size-nav: 7rem;
+    --font-size-body: 5rem;
+  }
+
+  .main {
+
+    grid-template-columns:
+
+      11vw
+
+      auto
+
+auto;
+
+    grid-template-rows:
+
+      5vh
+
+      auto;
+
+  
+
+  grid-template-areas:
+    "name navM ."
+    "name gallery info";
+
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 0;
+        gap: 0;
+ 
+        padding-bottom: 8vh;
+}
+
+
+
+  .main-l {
+
+    grid-area: gallery;
+
+
+  height: 100%;
+ width: auto !important;
+  aspect-ratio: 4 / 3;
+
+
+  }
+
+  .main-r {
+    grid-area: info;
+
+    min-width: 0;
+    min-height: 0;
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+  }
+
+  .mainSide {
+
+  grid-area: name;
+  padding-left: 6vw;
+
+}
+
+.navSide, .navL, .navR{
+
+  padding-bottom: 2vh;
+}
+
+.navL {
+
+  grid-area: navM;
+
+}
+
+
+.project-credits{
+
+  padding-bottom: 12vh;
+}
+
+.project-description{
+  padding-bottom: 8vh;
+}
+
+body.project .main {
+
+  overflow: visible;
+
+}
+
+
+
+
+}
+/* =================================
+   MOBILE PORTRAIT
+================================= */
+
+
+
+@media (max-width: 950px) and (orientation: portrait) {
+  .main {
+    grid-template-areas:
+      ". nav"
+      "header gallery"
+      ". info";
+  }
+
+
+  :root {
+    --font-size-nav: 1.2rem;
+    --font-size-body: 0.8rem;
+  }
+
+  .container {
+  display: grid;
+
+  grid-template-columns:
+   1fr;
+
+  column-gap: 2vw;
+
+
+
+    grid-template-rows:
+
+      auto
+
+      8vh
+
+      1fr;
+
+  grid-template-areas:
+  "header-l"
+  "header-r"
+  "main";
+  
+
+
+  height: auto;
+  min-height: 100vh;
+padding-bottom: 8vh;
+  }
+
+.main {
+  grid-template-columns: 11vw minmax(0, 1fr);
+
+
+grid-template-areas:
+  ". nav"
+  "header gallery"
+  ". info";
+}
+
+
+.main > .navSide,
+.main > .navR,
+.main > .detailsSide,
+.main > .detailsL,
+.main > .detailsR {
+  display: none;
+}
+
+.header-l{
+
+  text-align: left;
+   padding-top: 2vh;
+  padding-left: 15vw;
+  
+}
+
+.header-r{
+
+  padding: 0vw;
+  padding-left: 15vw;
+ 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+
+.navL {
+  grid-area: nav;
+}
+
+.mainSide {
+  grid-area: header;
+}
+
+.main-l {
+  grid-area: gallery;
+}
+
+.project-text {
+  grid-area: info;
+  min-width: 0;
+  min-height: 0;
+  overflow-y: visible;
+}
+
+
+
+.main-l {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+}
+
+.main-l .project-content {
+  width: 100%;
+  height: 100%;
+}
+
+.main-l .project-gallery {
+  width: 100%;
+  height: 100%;
+}
+
+.main-l .project-image {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-l .project-image.active {
+  display: block;
+}
+
+.mainSide {
+  grid-area: header;
+  height: 100%;
+  overflow: visible;
+}
+
+.project-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.project-name {
+  grid-area: header;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+}
+
+
+
+.project-description{
+  padding: 0vh;
+}
+
+.project-credits{
+  padding-left: 0vw;
+}
+}

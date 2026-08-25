@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="../../libraries/01_Images/HH.png">
+    
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+      <title>HOESSLER HOFFMANN</title>
+  
+      <link rel="stylesheet" type="text/css" href="../global/global.css">
+      <link rel="stylesheet" type="text/css" href="../global/global-overview.css">
+      <link rel="stylesheet" type="text/css" href="../../index.css">
+      <link rel="stylesheet" type="text/css" href="impressum.css">
+      
+  
+      <script src="../../libraries/p5.min.js"></script>
+      <script src="../../libraries/p5.sound.min.js"></script>
+    </head>
+
+    <div id="cursor-cross">
+  <div class="cursor-vertical"></div>
+  <div class="cursor-horizontal"></div>
+</div>
+  
+    <body class="impressum">
+
+    
+
+      <div class="container">
+        <div class="item header-l">
+          <a href="../../index.html" >HOESSLER HOFFMANN</a>
+        </div>
+
+        <div class="item header-r">
+            <a href="../architektur/architektur.html" >ARCHITEKTUR</a>
+            <a href="../studio/studio.html" class="active">STUDIO</a>
+        </div>
+
+        <div class="item main-l" id="impressum-content">
+
+
+<script>
+fetch('../../libraries/04_Studio/impressum.txt')
+  .then(response => response.text())
+  .then(text => {
+    document.getElementById('impressum-content').innerHTML =
+      text.replace(/\n/g, '<br>');
+  });
+</script>
+ 
+
+
+        </div>
+
+    
+
+        <div class="item footer-l">
+          WARTSTRASSE 16, 8400 WINTERTHUR<br>
+          STUDIO@HOESSLERHOFFMANN.CH<br>
+          +41 52 228 62 10
+        </div>
+          
+        <div class=" footer-r">
+        </div>
+          
+      
+      </div>
+  
+
+      
+       
+     
+   
+
+  
+ 
+    <script src="../global/global.js"></script>
+  </body>
+</html>

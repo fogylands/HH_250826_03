@@ -1,0 +1,324 @@
+/* ==========================
+   ARCHITEKTUR PAGE
+========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.category-title {
+  text-align:left;
+
+}
+
+
+
+
+
+
+/* images */
+
+.project-gallery-row {
+  display: grid;
+  grid-template-columns: 5vw repeat(5, minmax(0, 1fr));
+  column-gap: 1vw;
+  align-items: start;
+}
+
+
+.project-header {
+  width: 4vw;
+  min-width: 0;
+  position: relative;
+  align-self: stretch;
+  min-height: 0;
+}
+
+.project-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+
+  height: 100%;
+  max-height: 100%;
+
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+
+.project-images {
+  width: 100%;
+  min-width: 0;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  align-self: start;
+  position: relative;
+}
+
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+}
+
+
+.project-image.active {
+
+  display:block;
+
+}
+
+
+.project-images .project-image {
+  position: absolute;
+  inset: 0;
+}
+
+.black-image {
+  background: #000;
+}
+
+
+
+
+.view-nav {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  font-size: var(--font-size-nav);
+    margin-left:6vw;
+     width:calc(100% - 6vw);
+}
+
+
+.view-nav-r{
+  padding-bottom: 2vh;
+  height: 5vh;
+}
+
+.project-gallery-row:hover .project-name {
+  color: #457d08
+}
+
+
+
+
+
+
+.mobile-projects-wrapper {
+  display: none;
+}
+
+.categories {
+  display: none;
+}
+
+
+
+
+
+
+/* =================================
+   MOBILE LANDSCAPE
+================================= */
+
+@media (max-width: 700px) {
+
+
+  /* =================================
+   CONTAINER GRID MOBILE
+================================= */
+
+.container {
+    display: grid;
+  grid-template-areas:
+    "header-l"
+    "header-r"
+    "main"
+    "footer-l"
+    "footer-r";
+
+  grid-template-rows:
+    auto
+    auto
+    1fr
+    auto
+    auto;
+
+
+      grid-template-columns:
+
+    1fr;
+}
+
+
+.main {
+  display: grid;
+  grid-template-columns: 5vw minmax(0, 1fr);
+  column-gap: 2vw;
+}
+
+.view-nav {
+  grid-column: 2;
+}
+
+.categories {
+  grid-column: 2;
+}
+
+.header-l, .header-r{
+  padding-left: 15vw;
+
+}
+
+
+
+.header-r{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 0vh;
+}
+
+
+  .projects-wrapper {
+
+  display: none;
+
+}
+
+.mobile-projects-wrapper {
+  display: block;
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+
+.mobile-project {
+  width: 100%;
+  margin-bottom: 4vh;
+
+  display: grid;
+  grid-template-columns: 5vw minmax(0, 1fr);
+  column-gap: 2vw;
+}
+
+.mobile-project-header {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: visible;
+}
+
+.mobile-project-header a {
+  display: block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+
+}
+
+
+
+
+
+
+
+.mobile-project-images {
+  grid-column: 2;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+
+.mobile-project-image {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mobile-project-image.active {
+  display: block;
+}
+
+
+
+
+  .main {
+
+  padding-left: 8vw;
+
+}
+
+
+
+.project-gallery-row:hover .project-name {
+  color: #457d08;
+}
+
+
+
+.mobile-project:hover .mobile-project-header a {
+  color: #457d08;
+}
+
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+
+
+.view-nav {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  font-size: var(--font-size-nav);
+margin: 0vw;
+     width:100%;
+}
+
+
+
+.project-header {
+  width: 4vw;
+  position: relative;
+  align-self: stretch;
+}
+
+.project-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  font-size: var(--project-name-size) !important;
+  transform-origin: bottom left;
+
+  white-space: nowrap;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+}

@@ -1,0 +1,9 @@
+Auftraggeber: Institution
+Bauingenieur: Rolf Soller AG
+Holzbauingenieur: Timbatec AG
+Elektroplanung: Gutknecht Elektroplanung AG
+HLS-Planung: Planelement GmbH
+Bauphysik: Mühlebach Partner ag
+Brandschutz: Mühlebach Partner ag
+
+Visualisierungen: Colin Hössler

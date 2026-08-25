@@ -1,0 +1,162 @@
+
+/*--  mobile layout */
+@media (max-width: 800px) {
+
+
+  body{
+    margin-top: 2vh;
+  }
+
+  body.studio{
+    overflow: visible;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+      min-height: 100vh;
+  }
+
+   body.studio .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+  }
+
+  
+
+  body.studio .header-l,
+  body.studio .header-r {
+    display: flex;
+    flex-direction: column;
+    padding: 0vh 0vh 0vh 2vh;
+    width: 100%;
+    margin: 0;
+  }
+
+  
+
+    /* Footer for index stays sticky */
+  body.index .footer-l {
+    position: sticky;
+    bottom: 2vh;
+    margin-top: 0;
+  }
+
+  /* Footer for Architektur: remove auto margin so it doesn't force scroll */
+  body.architektur .footer-l {
+    margin-top: 0;
+    position: static;      /* normal flow */
+    padding-left: 2vh;
+    padding-bottom: 2vh;   /* ensures at least 2vh from bottom on short content */
+  }
+
+
+
+  .footer-l{
+    font-size: 1.5vh;
+  }
+  .footer-r{
+    display:block;
+    padding: 2vh;
+    text-align: left;
+    font-size: 1.5vh;
+  }
+
+  .header-l,
+  .header-r {
+    padding-top: 0vh;   /* optional smaller padding */
+    padding-bottom: 0vh; 
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+  }
+
+ 
+
+
+
+
+
+  .main-l,
+  .main-r {
+    grid-column: 1 / -1;  
+  }
+
+
+
+  .project-description{
+  max-width: 100vw;
+}
+
+
+
+
+  .project-gallery-row {
+    display: grid;
+    grid-template-columns: 3ch repeat(5,1fr);
+    gap: 1vh;
+    width: 100%;
+  }
+
+
+
+
+
+.project-images {
+  display: flex;              /* activate flexbox */
+  flex-direction: column;        /* align children horizontally */
+  gap: 1vh;                   /* space between galleries */
+  height: auto;
+  width: 100%;               /* fixed container height */
+  overflow-x: auto;           /* horizontal scrolling if needed */
+  overflow-y: hidden;         /* hide vertical overflow */
+  white-space: nowrap;        /* prevent wrapping to next line */
+  scroll-behavior: smooth;    /* smooth scrolling */
+  aspect-ratio: 4/3;
+}
+
+.project-image {
+  display: none;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-image.active {
+  display: block;
+}
+
+.project-arrow {
+  cursor: pointer;
+  user-select: none;
+  font-size: 2vh;
+  padding: 0.5vh 0;
+}
+
+
+}
+
+
+
+.project-gallery {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+
+.project-gallery .project-image {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.project-gallery .project-image.active {
+    display: block;
+}
+

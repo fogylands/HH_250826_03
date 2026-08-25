@@ -1,0 +1,473 @@
+[
+  {
+    "number": "1801",
+    "name": "KULTURZENTRUM THUNSTRASSE",
+    "id": "1801_KULTURZENTRUM_THUNSTRASSE_BERN",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Bern",
+    "year": "2020-2021",
+    "type": "Konzeptstudie",
+    "status": "Abgeschlossen",
+    "details": "Ort: Bern\nZeitraum: 2020-2021\nArt: Konzeptstudie\nStatus: Abgeschlossen",
+    "images": {}
+  },
+  {
+    "number": "1802",
+    "name": "SAUNAHAUS ALTAVILLA",
+    "id": "1802_SAUNAHAUS_ALTAVILLA_MURTEN",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Murten",
+    "year": "2020-2025",
+    "type": "Direktauftrag",
+    "status": "Realisiert",
+    "details": "Ort: Murten\nZeitraum: 2020-2025\nArt: Direktauftrag\nStatus: Realisiert",
+    "images": {}
+  },
+  {
+    "number": "1900A",
+    "name": "FOTOMUSEUM WINTERTHUR",
+    "id": "1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR",
+    "description": "Das bestehende Museum an der Grüzenstrasse wird im Sinne einer räumlichen Neuordnung weiterentwickelt, wobei kleinteilige Nutzungen in den Kopfbau und einen neuen Queranbau verlagert werden. Im ehemaligen oberen Fabriksaal entsteht ein schlichter, stützenfreier und überhoher Ausstellungsraum, der maximale Flexibilität für unterschiedliche szenografische Formate bietet. Der Entwurf konzentriert sich auf gezielte Eingriffe und die präzise Umorganisation des Bestands sowie die Ergänzung weniger neuer Elemente, darunter eine Galerie mit Laube, Künstlerwohnungen und eine freistehende Wendeltreppe. Eine durchlässige Galerie im Erdgeschoss öffnet das Museum zum Quartier und verbindet Innen- und Aussenräume zu einem gemeinschaftlich nutzbaren Freiraum. Ergänzend schaffen kompakte Künstlerwohnungen mit gemeinschaftlich genutzten Infrastrukturen ein integratives Wohn- und Arbeitsumfeld im Kontext des Museums.\n<br>",
+    "credits": "",
+    "location": "Winterthur",
+    "year": "2018",
+    "type": "Wettbewerb, offen, honoriert",
+    "status": "Abgeschlossen",
+    "details": "Ort: Winterthur\nZeitraum: 2018\nArt: Wettbewerb, offen, honoriert\nStatus: Abgeschlossen\nNummer: NEIN",
+    "images": {
+      "1_VIS_FOTOS": [
+        "HH_WEBSITE_26012668.jpg",
+        "HH_WEBSITE_26012669.jpg",
+        "HH_WEBSITE_26012670.jpg",
+        "HH_WEBSITE_26012671.jpg",
+        "X_HH_WEBSITE_2608205.jpg"
+      ],
+      "2_GRUNDRISS": [
+        "HH_WEBSITE_26082010.jpg",
+        "HH_WEBSITE_2608207.jpg",
+        "HH_WEBSITE_2608208.jpg",
+        "HH_WEBSITE_2608209.jpg"
+      ],
+      "3_ANSICHTEN": [
+        "HH_WEBSITE_26082011.jpg",
+        "HH_WEBSITE_26082012.jpg"
+      ],
+      "4_SCHNITT": [
+        "HH_WEBSITE_26082013.jpg"
+      ],
+      "5_DETAILS_WEITERES": [
+        "HH_WEBSITE_26082014.jpg",
+        "HH_WEBSITE_26082015.jpg",
+        "HH_WEBSITE_2608206.jpg"
+      ]
+    }
+  },
+  {
+    "number": "1900B",
+    "name": "FERIENWOHNUNG BERG",
+    "id": "1900B_FERIENWOHNUNG_BERG_LENZERHEIDE",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Lenzerheide",
+    "year": "2017",
+    "type": "Umbau, Direktauftrag",
+    "status": "Realisiert",
+    "details": "Ort: Lenzerheide\nZeitraum: 2017\nArt: Umbau, Direktauftrag\nStatus: Realisiert\nNummer: NEIN",
+    "images": {}
+  },
+  {
+    "number": "1901",
+    "name": "WOHNHAUS IM CHILCHLI",
+    "id": "1901_WOHNHAUS_IM CHILCHLI_REIGOLDSWIL",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Reigoldswil",
+    "year": "2019",
+    "type": "Machbarkeitsstudie",
+    "status": "Abgeschlossen",
+    "details": "Ort: Reigoldswil\nZeitraum: 2019\nArt: Machbarkeitsstudie\nStatus: Abgeschlossen",
+    "images": {}
+  },
+  {
+    "number": "2000A",
+    "name": "ÜBERBAUUNG BERNSTR",
+    "id": "2000A_ÜBERBAUUNG_BERNSTR_OSTERMUNDIGEN",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Bern",
+    "year": "2021",
+    "type": "Potenzialanalyse",
+    "status": "Abgeschlossen",
+    "details": "Ort: Bern\nZeitraum: 2021\nArt: Potenzialanalyse\nStatus: Abgeschlossen\nNummer: NEIN",
+    "images": {}
+  },
+  {
+    "number": "2001 WOHNÜBERBAUUNG",
+    "name": "BAHNHOFSTR BAD",
+    "id": "2001 WOHNÜBERBAUUNG_BAHNHOFSTR_BAD_RAGAZ",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Bad Ragaz",
+    "year": "2020",
+    "type": "Potenzialanalyse",
+    "status": "Abgeschlossen",
+    "details": "Ort: Bad Ragaz\nZeitraum: 2020\nArt: Potenzialanalyse\nStatus: Abgeschlossen",
+    "images": {}
+  },
+  {
+    "number": "2003",
+    "name": "SCHLOSS HAGENAU",
+    "id": "2003_SCHLOSS_HAGENAU_ST-PETER-AM-HART",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "St. Peter am Hart A",
+    "year": "2020-2021",
+    "type": "Machbarkeitsstudie",
+    "status": "Abgeschlossen",
+    "details": "Ort: St. Peter am Hart A\nZeitraum: 2020-2021\nArt: Machbarkeitsstudie\nStatus: Abgeschlossen",
+    "images": {}
+  },
+  {
+    "number": "2100A",
+    "name": "PRESSURED NETWORKS",
+    "id": "2100A_PRESSURED_NETWORKS_BRIG",
+    "description": "Imitating the process of the 86 million neurons in our brain, artificial neural networks learn and adapt to changing patterns. Flows, connections, and economies rely on the highly complex invisible abstract systems. As the backbone of economy, physical networks mix with the non-physical to collectively push the boundaries of the doctrine of continuous growth, rendering enormous pressure on the critical segments of the Blue Banana to adapt itself constantly. The lack of competition due to the nationalization of rail in 1902, the main infrastructure neglected progress, and the interference of networks on various scales. Despite loss records of 30 million per year and still dependent on state money, the original green freight transport solution tempted the economy due to the lack of flexibility to use other adaptable but C02 intensive solutions. Tunnels, new underground solutions, or more tracks do not solve the fundamental problem of interconnecting the economy with the railway, leaving the most considerable, theoretical space-efficient, infrastructure under-utilized and rigid. Trapped in the narrow valley between the Lötschberg and the Simplon tracks unbound colonized space of nature, forced the Rhone into the smallest possible section. As a result of an adverse change in precipitation and temperature, the river, as well as changing social Patterns due to the compressed connection of territories, put enormous pressure on the space. For decades, the housing issue of Saisoniers, which enabled this infrastructure, has been swept under the carpet. Confronting the limited area, infrastructure should now adapt to changing Patterns. Using the vertical dimension of space, the shunting and storage system opens up new dimensions for automation and efficiency. Capable of modifying negative emissions into positive synergies for its surroundings, using the available potential energy to break damaging energy peaks, to ensure a balanced environment. This is inevitable to grant the function of space, ecology, social habitat, and hence infrastructure to be in harmony with durability.",
+    "credits": "ETH Zürich<br>Prof. A. Theriot<br>FS22<br>Prize: Medal of ETH Zurich, honoured for Outstanding Master’s and doctoral theses.",
+    "location": "Brig",
+    "year": "2022",
+    "type": "Master's thesis",
+    "status": "Abgeschlossen",
+    "details": "Ort: Brig\nZeitraum: 2022\nArt: Master's thesis\nStatus: Abgeschlossen\nNummer: NEIN",
+    "images": {
+      "1_VIS_FOTOS": [
+        "PRESSURED_NETWORK_01.jpg",
+        "PRESSURED_NETWORK_02.jpg",
+        "PRESSURED_NETWORK_03.jpg",
+        "PRESSURED_NETWORK_04.jpg",
+        "PRESSURED_NETWORK_05.jpg"
+      ],
+      "2_GRUNDRISS": [
+        "PRESSURED_NETWORK_30.jpg",
+        "PRESSURED_NETWORK_32.jpg"
+      ],
+      "3_SCHNITTE": [
+        "PRESSURED_NETWORK_29.jpg",
+        "PRESSURED_NETWORK_31.jpg",
+        "PRESSURED_NETWORK_33.jpg"
+      ],
+      "4_ANSICHTEN": [
+        "PRESSURED_NETWORK_19.jpg",
+        "PRESSURED_NETWORK_34.jpg",
+        "PRESSURED_NETWORK_37.jpg"
+      ],
+      "5_DETAILS_WEITERES": [
+        "PRESSURED_NETWORK_06.jpg",
+        "PRESSURED_NETWORK_07.jpg",
+        "PRESSURED_NETWORK_08.jpg",
+        "PRESSURED_NETWORK_09.jpg",
+        "PRESSURED_NETWORK_10.jpg",
+        "PRESSURED_NETWORK_11.jpg",
+        "PRESSURED_NETWORK_12.jpg",
+        "PRESSURED_NETWORK_13.jpg",
+        "PRESSURED_NETWORK_14.jpg",
+        "PRESSURED_NETWORK_15.jpg",
+        "PRESSURED_NETWORK_16.jpg",
+        "PRESSURED_NETWORK_17.jpg",
+        "PRESSURED_NETWORK_18.jpg",
+        "PRESSURED_NETWORK_20.jpg",
+        "PRESSURED_NETWORK_21.jpg",
+        "PRESSURED_NETWORK_22.jpg",
+        "PRESSURED_NETWORK_23.jpg",
+        "PRESSURED_NETWORK_24.jpg",
+        "PRESSURED_NETWORK_25.jpg",
+        "PRESSURED_NETWORK_26.jpg",
+        "PRESSURED_NETWORK_27.jpg",
+        "PRESSURED_NETWORK_28.jpg",
+        "PRESSURED_NETWORK_35.jpg",
+        "PRESSURED_NETWORK_36.jpg"
+      ]
+    }
+  },
+  {
+    "number": "2200A",
+    "name": "WOHNUEBERBAUUNG GUETETLIWEG",
+    "id": "2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG",
+    "description": "Die Überbauung in Hinteregg entwickelt aus der heterogenen dörflichen Umgebung ein Ensemble aus zwei Langhäusern und zwei Punkthäusern, das vertraute Bautypologien neu interpretiert. In lockerer Setzung fügen sich die Baukörper mit unterschiedlich ausgerichteten Satteldächern in die Kernzone ein und schaffen eine Balance zwischen Offenheit und gemeinschaftlicher Dichte. Die differenzierten Typologien ermöglichen ein vielfältiges Wohnangebot für unterschiedliche Lebensformen und fördern eine sozial durchmischte Bewohnerschaft. Naturnah gestaltete Freiräume, die Renaturierung des Lauenbachs sowie eine fein abgestufte Zonierung strukturieren den Aussenraum und stärken Privatheit wie auch gemeinschaftliche Nutzung. Eine klimaschonende Holzbauweise, einfache Tragstrukturen und ein optimierter Energieeinsatz gewährleisten eine nachhaltige und zukunftsfähige Gesamtanlage.\n<br>",
+    "credits": "Auftraggeber: Privat<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: Ramon Grendene, Design, Craft und Permaculture<br>Bauingenieur: Aschwanden & Partner<br>Holzbauingenieur: Timbatec AG<br>Elektroplanung: KMN Elektro - Ingenieurbüro AG<br>HLS-Planung: Gerber + Partner Haustechnik AG<br>Bauphysik: Braune Roth AG<br>Brandschutz: AFC AG<br>Visualisierungen: 360360 Onur Özman",
+    "location": "Hinteregg",
+    "year": "2023-",
+    "type": "Studienauftrag, 1. Preis",
+    "status": "In Bearbeitung, Referenz BDE",
+    "details": "Ort: Hinteregg\nZeitraum: 2023-\nArt: Studienauftrag, 1. Preis\nStatus: In Bearbeitung, Referenz BDE\nNummer: NEIN",
+    "images": {
+      "1_VIS_FOTOS": [
+        "1_HH_WEBSITE_26012693.jpg",
+        "HH_WEBSITE_26012690.jpg",
+        "HH_WEBSITE_26012691.jpg",
+        "HH_WEBSITE_26012692.jpg",
+        "HH_WEBSITE_26012694.jpg",
+        "HH_WEBSITE_26012695.jpg"
+      ],
+      "2_GRUNDRISSE": [
+        "HH_WEBSITE_26082010.jpg",
+        "HH_WEBSITE_26082011.jpg",
+        "HH_WEBSITE_26082012.jpg",
+        "HH_WEBSITE_26082014.jpg",
+        "HH_WEBSITE_26082015.jpg",
+        "HH_WEBSITE_26082016.jpg",
+        "HH_WEBSITE_2608208.jpg",
+        "HH_WEBSITE_2608209.jpg"
+      ],
+      "3_ANSICHTEN": [
+        "HH_WEBSITE_260126105.jpg",
+        "HH_WEBSITE_260126107.jpg",
+        "HH_WEBSITE_260126108.jpg",
+        "HH_WEBSITE_260126109.jpg"
+      ],
+      "4_SCHNITTE": [
+        "HH_WEBSITE_260126110.jpg",
+        "HH_WEBSITE_260126111.jpg",
+        "HH_WEBSITE_260126113.jpg"
+      ],
+      "5_DETAILS_WEITERES": [
+        "1_HH_WEBSITE_260126117.jpg",
+        "1_HH_WEBSITE_260126118.jpg",
+        "1_HH_WEBSITE_260126119.jpg",
+        "HH_WEBSITE_260126112.jpg",
+        "HH_WEBSITE_260126114.jpg",
+        "HH_WEBSITE_260126115.jpg",
+        "HH_WEBSITE_260126116.jpg"
+      ]
+    }
+  },
+  {
+    "number": "2200B",
+    "name": "SCHULHAUS GALGENEN",
+    "id": "2200B_SCHULHAUS_GALGENEN_GALGENEN",
+    "description": "Der dreigeschossige Neubau ergänzt die Schulanlage Tischmacherhof als prägnanter Abschluss an der Schulstrasse und definiert durch ein zurückversetztes Erdgeschoss einen neuen Pausenplatz. Als eigenständig funktionierendes, zugleich integriertes Gebäude bietet er mit einem öffentlich zugänglichen Saal im Erdgeschoss zusätzliche sozialräumliche Qualitäten für die Gemeinde Galgenen. Die kompakte Setzung und flexible Struktur ermöglichen langfristige Anpassungen sowie eine mögliche Erweiterung, ohne Eingriffe in den Bestand und bei laufendem Betrieb. Das Gebäude ist in einer ressourcenschonenden Holz-Beton-Mischbauweise konzipiert und folgt konsequent den Prinzipien des klimagerechten Bauens. Eine klare Organisation, vielfältige Freiräume und nachhaltige technische Strategien gewährleisten hohe funktionale Qualität, ökologische Effizienz und soziale Nachhaltigkeit.\n<br>",
+    "credits": "Auftraggeber: Gemeinde Galgenen<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: Balliana Schubert Landschaftsarchitekten AG<br>Bauingenieur: DSP Ingenieure & Planer AG<br>Visualisierungen: Atelier Brunecky",
+    "location": "Galgenen",
+    "year": "2022-2026",
+    "type": "Wettbewerb, selektiv, 3. Preis",
+    "status": "Abgeschlossen, Referenz BDE",
+    "details": "Ort: Galgenen\nZeitraum: 2022-2026\nArt: Wettbewerb, selektiv, 3. Preis\nStatus: Abgeschlossen, Referenz BDE\nNummer: NEIN",
+    "images": {}
+  },
+  {
+    "number": "2201",
+    "name": "ALTERWOHNEN DORFPLATZ",
+    "id": "2201_ALTERWOHNEN_DORFPLATZ_REIGOLDSWIL",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Reigoldswil",
+    "year": "2022",
+    "type": "Potenzialanalyse",
+    "status": "Abgeschlossen",
+    "details": "Ort: Reigoldswil\nZeitraum: 2022\nArt: Potenzialanalyse\nStatus: Abgeschlossen",
+    "images": {}
+  },
+  {
+    "number": "2202",
+    "name": "POOLHAUS MAS NEUF",
+    "id": "2202_POOLHAUS_MAS_NEUF_TORNAC",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Tornac FR",
+    "year": "2022-",
+    "type": "Direktauftrag",
+    "status": "In Bearbeitung",
+    "details": "Ort: Tornac FR\nZeitraum: 2022-\nArt: Direktauftrag\nStatus: In Bearbeitung",
+    "images": {}
+  },
+  {
+    "number": "2300A",
+    "name": "AREALENTWICKLUNG PFRUNDLAND",
+    "id": "2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG",
+    "description": "Lorem Ipsum.\n<br>",
+    "credits": "Auftraggeber: Lägern Wohnen<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: <br>Visualisierungen: Atelier Brunecky",
+    "location": "Lupfig",
+    "year": "2025",
+    "type": "Studienauftrag, 1. Preis",
+    "status": "Abgeschlossen",
+    "details": "Ort: Lupfig\nZeitraum: 2025\nArt: Studienauftrag, 1. Preis\nStatus: Abgeschlossen\nNummer: NEIN",
+    "images": {
+      "1_VIS_FOTOS": [
+        "1_HH_WEBSITE_2608204.jpg",
+        "2_HH_WEBSITE_2608205.jpg",
+        "3_HH_WEBSITE_2608203.jpg",
+        "X_HH_WEBSITE_260820.jpg",
+        "X_HH_WEBSITE_2608202.jpg"
+      ],
+      "2_GRUNDRISS": [
+        "HH_WEBSITE_26082010.jpg",
+        "HH_WEBSITE_2608206.jpg",
+        "HH_WEBSITE_2608207.jpg",
+        "HH_WEBSITE_2608208.jpg",
+        "HH_WEBSITE_2608209.jpg"
+      ],
+      "3_ANSICHTEN": [
+        "HH_WEBSITE_26082011.jpg",
+        "HH_WEBSITE_26082012.jpg",
+        "HH_WEBSITE_26082013.jpg"
+      ],
+      "4_SCHNITT": [
+        "HH_WEBSITE_260820.jpg",
+        "HH_WEBSITE_2608202.jpg",
+        "HH_WEBSITE_2608203.jpg"
+      ],
+      "5_DETAILS_WEITERES": [
+        "HH_WEBSITE_26082014.jpg",
+        "HH_WEBSITE_26082015.jpg",
+        "HH_WEBSITE_26082016.jpg",
+        "HH_WEBSITE_26082017.jpg",
+        "HH_WEBSITE_26082018.jpg"
+      ]
+    }
+  },
+  {
+    "number": "2300B",
+    "name": "WOHNHAUS ROEMERSTRASSE",
+    "id": "2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR",
+    "description": "Das Wohnhaus liegt mit seinem für das Quartier typischen Vorgarten direkt an der Römerstrasse. Es ist länger als seine älteren Nachbarn, beherbergt 15 Mietwohnungen und verfügt über zwei Hauseingänge. Drei gegliederte Gebäudeteile zeichnen sich jeweils in der Höhe der Traufe ab. Das bewegte Schrägdach schafft den Bezug zum Wohnquartier. Die ressourcenschonende Holzbauweise ist in ihrer Struktur präsent und prägt mit Vollholzdecken die Raumatmosphäre der Wohnungen.\n<br>",
+    "credits": "Auftraggeber: Kübler Immobilien AG<br>Architektur: BDE Architekten, Colin Hössler PL<br>Bauingenieur: Rolf Soller AG<br>Holzbauingenieur: Timbatec AG<br>Elektroplanung: KMN Elektro - Ingenieurbüro AG<br>HLS-Planung: SWT-Gebäudetechnik GmbH<br>Bauphysik: Braune Roth AG<br>Brandschutz: Timbatec AG<br>Bauleitung: Yves Trostel & Colin Hössler<br>Bilder: Roland Bernath, Colin Hössler",
+    "location": "Winterthur",
+    "year": "2022-2026",
+    "type": "Direktauftrag",
+    "status": "Realisiert, Referenz BDE",
+    "details": "Ort: Winterthur\nZeitraum: 2022-2026\nArt: Direktauftrag\nStatus: Realisiert, Referenz BDE\nNummer: NEIN",
+    "images": {
+      "1_VIS_FOTOS": [
+        "1_2114_ROEMERSTRASSE_1_VIS_01.jpg",
+        "2_bde_roemerstrasse_128177.jpg",
+        "3_bde_roemerstrasse_128018.jpg",
+        "4_bde_roemerstrasse_127933_1.jpg",
+        "5_bde_roemerstrasse_127848.jpg",
+        "6_bde_roemerstrasse_127979.jpg"
+      ],
+      "2_GRUNDRISS": [
+        "2114_ROEMERSTRASSE_02.jpg",
+        "2114_ROEMERSTRASSE_03.jpg",
+        "2114_ROEMERSTRASSE_04.jpg"
+      ],
+      "3_SCHNITTE": [
+        "2114_ROEMERSTRASSE_07.jpg",
+        "2114_ROEMERSTRASSE_08.jpg"
+      ],
+      "4_ANSICHTEN": [
+        "2114_ROEMERSTRASSE_05.jpg",
+        "2114_ROEMERSTRASSE_06.jpg"
+      ],
+      "5_DETAILS_WEITERES": [
+        "2114_ROEMERSTRASSE_09.jpg"
+      ]
+    }
+  },
+  {
+    "number": "2304",
+    "name": "ÜBERBAUUNG TELLISTRASSE",
+    "id": "2304_ÜBERBAUUNG_TELLISTRASSE_AARAU",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Aarau",
+    "year": "2025",
+    "type": "Machbarkeitsstudie",
+    "status": "Abgeschlossen",
+    "details": "Ort: Aarau\nZeitraum: 2025\nArt: Machbarkeitsstudie\nStatus: Abgeschlossen",
+    "images": {}
+  },
+  {
+    "number": "2305",
+    "name": "WOHNHAUS GUBELSTRASSE",
+    "id": "2305_WOHNHAUS_GUBELSTRASSE_ZUERICH",
+    "description": "Zwei ineinander verschränkte Baukörper reagieren sorgfältig auf den heterogenen städtebaulichen Kontext und vermitteln zwischen dem historischen Strassenraum und der benachbarten Architektur der 1960er-Jahre. Die klare Adressbildung an der Gubelstrasse, der Erhalt der prägnanten Platane sowie die geplante Ersatzbepflanzung und der qualitätsvoll gestaltete, begrünte Freiraum stärken die Einbindung des Neubaus in das Quartier. Die neun Wohnungen sind effizient organisiert und profitieren von einer guten Belichtung sowie vielfältigen räumlichen Bezügen. Die reduzierte Bandfassade verbindet Transparenz und Wohnqualität mit einer zeitgemässen Interpretation des heterogenen Umfelds. Die Wohnräume entwickeln sich entlang der fliessenden Fassadenräume und werden durch ein zentrales Möbel zoniert, das sämtliche dienenden Funktionen aufnimmt und so eine klare räumliche Struktur ermöglicht.  Die Obergeschosse sind, abgesehen vom Treppenkern, in Holzbauweise konstruiert. Zusammen mit dem reduzierten Untergeschoss entsteht ein ressourcenschonender und nachhaltiger Konstruktionsansatz.\n<br>",
+    "credits": "Auftraggeber: Institution<br>Bauingenieur: Rolf Soller AG<br>Holzbauingenieur: Timbatec AG<br>Elektroplanung: Gutknecht Elektroplanung AG<br>HLS-Planung: Planelement GmbH<br>Bauphysik: Mühlebach Partner ag<br>Brandschutz: Mühlebach Partner ag<br>Visualisierungen: Colin Hössler",
+    "location": "Zürich",
+    "year": "2025-",
+    "type": "Direktauftrag",
+    "status": "In Bearbeitung",
+    "details": "Ort: Zürich\nZeitraum: 2025-\nArt: Direktauftrag\nStatus: In Bearbeitung",
+    "images": {
+      "1_VIS_FOTOS": [
+        "1_2305_GUBELSTRASSE_260311.jpg",
+        "2_2305_TREPPENHAUS_A_260811.jpg",
+        "3_2305_GARDEROBE_A_260810.jpg",
+        "4_2305_WOHNEN_A_260810.jpg",
+        "5_2305_ERKER_A_260807.jpg",
+        "6_2305_BAD_A_260810.jpg"
+      ],
+      "2_GRUNDRISS": [
+        "2305-32-2000-0-ERDGESCHOSS.jpg",
+        "2305-32-2010-1-OBERGESCHOSS.jpg",
+        "2305-32-2040-4-ATTIKA.jpg",
+        "2305-32-2199-1-UNTERGESCHOSS.jpg"
+      ],
+      "3_SCHNITTE": [
+        "2305-32-3000-SCHNITT LS-A.jpg",
+        "2305-32-3100-SCHNITT QS-A.jpg"
+      ],
+      "4_ANSICHTEN": [
+        "2305-32-4010-ANSICHT NORD.jpg",
+        "2305-32-4020-ANSICHT OST.jpg"
+      ],
+      "5_DETAILS_WEITERES": [
+        "1_GUBI_03.jpg",
+        "2_GUBI_02.jpg",
+        "3_GUBI_01.jpg"
+      ]
+    }
+  },
+  {
+    "number": "2400A",
+    "name": "WERKHOF SIHLHOF",
+    "id": "2400A_WERKHOF_SIHLHOF_LANGNAU AM ALBIS",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Langnau am Albis",
+    "year": "2024",
+    "type": "Studienauftrag, 1. Preis",
+    "status": "Referenz, BDE",
+    "details": "Ort: Langnau am Albis\nZeitraum: 2024\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, BDE\nNummer: NEIN",
+    "images": {}
+  },
+  {
+    "number": "2403",
+    "name": "ZIEGELHUETTE",
+    "id": "2403_ZIEGELHUETTE_REIGOLDSWIL",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Reigoldswil",
+    "year": "2024-2025",
+    "type": "Umbau",
+    "status": "Realisiert",
+    "details": "Ort: Reigoldswil\nZeitraum: 2024-2025\nArt: Umbau\nStatus: Realisiert",
+    "images": {}
+  },
+  {
+    "number": "2406",
+    "name": "MASTERPLAN OERTLIMATT",
+    "id": "2406_MASTERPLAN_OERTLIMATT_KRATTIGEN",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Krattigen",
+    "year": "2024-2025",
+    "type": "Machbarkeitsstudie",
+    "status": "Abgeschlossen",
+    "details": "Ort: Krattigen\nZeitraum: 2024-2025\nArt: Machbarkeitsstudie\nStatus: Abgeschlossen",
+    "images": {}
+  },
+  {
+    "number": "2501",
+    "name": "BÜROHAUS SCHOSSHALDE",
+    "id": "2501_BÜROHAUS_SCHOSSHALDE_BERN",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
+    "location": "Bern",
+    "year": "2026-",
+    "type": "Machbarkeitsstudie",
+    "status": "In Bearbeitung",
+    "details": "Ort: Bern\nZeitraum: 2026-\nArt: Machbarkeitsstudie\nStatus: In Bearbeitung",
+    "images": {}
+  }
+]

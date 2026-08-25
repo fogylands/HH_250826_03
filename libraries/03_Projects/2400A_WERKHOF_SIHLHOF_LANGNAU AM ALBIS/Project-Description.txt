@@ -1,0 +1,9 @@
+Lorem ipsum
+<br>
+
+
+Ort: Langnau am Albis
+Zeitraum: 2024
+Art: Studienauftrag, 1. Preis
+Status: Referenz, BDE
+Nummer: NEIN
