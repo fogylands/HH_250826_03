@@ -96,21 +96,13 @@ detailsR.innerHTML = `
 
 
 
-  // --- RIGHT: Employees ---
-const imageLoaded = new Promise((resolve, reject) => {
-  if (image.complete && image.naturalWidth > 0) {
-    resolve();
-  } else {
-    image.addEventListener('load', resolve, { once: true });
-    image.addEventListener('error', reject, { once: true });
-  }
-});
+
 
 const studioLoaded = fetch('../../libraries/04_Studio/studio.json')
   .then(res => res.json());
 
-Promise.all([imageLoaded, studioLoaded])
-  .then(([_, studio]) => {
+studioLoaded
+  .then(studio => {
 
       const employeeContent = document.createElement('div');
       employeeContent.classList.add('employee-content');
