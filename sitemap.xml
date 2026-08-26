@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main pages -->
+  <url>
+    <loc>https://hoesslerhoffmann.ch/</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/architektur/architektur.html</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/studio/studio.html</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/works/works.html</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/impressum/impressum.html</loc>
+  </url>
+
+
+  <!-- Projects -->
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/project/project.html?id=1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/project/project.html?id=2100A_PRESSURED_NETWORKS_BRIG</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/project/project.html?id=2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/project/project.html?id=2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/project/project.html?id=2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR</loc>
+  </url>
+
+  <url>
+    <loc>https://hoesslerhoffmann.ch/pages/project/project.html?id=2305_WOHNHAUS_GUBELSTRASSE_ZUERICH</loc>
+  </url>
+
+</urlset>
