@@ -49,6 +49,7 @@ body {
 
 
 
+
 /* =================================
    HEADER
 ================================= */
@@ -437,8 +438,8 @@ body {
 
 
   :root {
-    --font-size-nav: 4vh;
-    --font-size-body: 3vh;
+    --font-size-nav: 1.8vh;
+    --font-size-body: 1vh;
   }
 
   .container {
@@ -525,6 +526,7 @@ grid-template-rows:
 
   .header-l {
     grid-area: header-l;
+   
   }
 
   .header-r {
@@ -584,7 +586,19 @@ grid-template-rows:
 
 
 @media (max-width: 900px) and (orientation: portrait){
+   :root {
+    font-size: 16px;
+    --font-size-nav: 1.2rem;
+    --font-size-body: 1rem;
+  }
 
+.main-l,
+.main-r,
+.mainSide,
+.detailsR{
+font-size: var(--font-size-body);
+  
+}
 
 
   .container {
@@ -616,15 +630,15 @@ padding-left: 6vw;
 .header-l{
 
   text-align: left;
-   padding-top: 2vh;
-  padding-left: 9vw;
+   padding-top: 1.5vh;
+  padding-left:8vw;
 
 }
 
 .header-r{
 
   padding: 0vw;
-  padding-left: 9vw;
+  padding-left: 8vw;
  
   display: flex;
   flex-direction: column;
@@ -653,6 +667,9 @@ padding-left: 6vw;
   gap: 2vh 0;
   overflow: visible;
   padding-left: 8vw;
+      padding-right: 2vw;
+    box-sizing: border-box;
+
 }
 
 
@@ -707,6 +724,10 @@ padding-left: 6vw;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+}
+
+.detailsSide{
+  font-size: var(--font-size-body);
 }
 
 .studio-section-links {

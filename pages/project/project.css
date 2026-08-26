@@ -36,6 +36,7 @@
   min-width: 0;
   min-height: 0;
   align-self: start;
+  overflow: hidden;
 
 
 }
@@ -267,13 +268,15 @@
 
 
 @media (max-width: 950px) and (orientation: portrait) {
-  .main {
-    grid-template-areas:
-      ". nav"
-      "header gallery"
-      ". info";
-  }
+.main {
+  grid-template-columns: 11vw minmax(0, 1fr);
 
+  grid-template-areas:
+    ". nav"
+    "header gallery"
+    ". info"
+    ". description";
+}
 
   :root {
     font-size: 16px;
@@ -318,14 +321,19 @@ padding-bottom: 8vh;
 grid-template-areas:
   ". nav"
   "header gallery"
-  ". info";
-}
+  ". info"
+  ". description";
 
+  grid-template-rows:
+  auto
+  auto
+  auto
+  auto;
+}
 
 .main > .navSide,
 .main > .navR,
 .main > .detailsSide,
-.main > .detailsL,
 .main > .detailsR {
   display: none;
 }
@@ -403,6 +411,14 @@ grid-template-areas:
   height: 100%;
   overflow: visible;
 }
+.detailsL {
+  grid-area: description;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+}
+
 
 .project-header {
   width: 100%;
