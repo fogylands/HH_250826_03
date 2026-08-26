@@ -104,9 +104,9 @@
     "images": {}
   },
   {
-    "number": "2001 WOHNÜBERBAUUNG",
-    "name": "BAHNHOFSTR BAD",
-    "id": "2001 WOHNÜBERBAUUNG_BAHNHOFSTR_BAD_RAGAZ",
+    "number": "2001",
+    "name": "WOHNÜBERBAUUNG BAHNHOFSTR BAD",
+    "id": "2001_WOHNÜBERBAUUNG_BAHNHOFSTR_BAD_RAGAZ",
     "description": "Lorem ipsum\n<br>",
     "credits": "",
     "location": "Bad Ragaz",

@@ -200,100 +200,61 @@
 ================================= */
 
 
-@media (max-width: 950px) and (orientation: landscape) {
+@media (max-width: 1000px) and (orientation: landscape) {
 
-  :root {
-    --font-size-nav: 7rem;
-    --font-size-body: 5rem;
+   :root {
+    font-size: 16px;
+    --font-size-nav: 1.2rem;
+    --font-size-body: 0.8rem;
   }
 
   .main {
 
-    grid-template-columns:
+    --gallery-row-height: 60vh;
 
-      11vw
+    grid-template-areas:
 
-      auto
+      "navSide navL navR"
 
-auto;
+      "mainSide mainL projectText"
+
+      "detailsSide detailsL detailsL";
+
+    grid-template-columns: 11vw auto minmax(0, 1fr);
 
     grid-template-rows:
 
       5vh
 
-      auto;
+      var(--gallery-row-height)
 
-  
+      20vh;
 
-  grid-template-areas:
-    "name navM ."
-    "name gallery info";
+  }
 
-  width: 100vw;
-  max-width: 100vw;
-  min-width: 0;
-        gap: 0;
- 
-        padding-bottom: 8vh;
-}
-
-
-
-  .main-l {
-
-    grid-area: gallery;
-
-
+.main-l {
   height: 100%;
- width: auto !important;
+  width: auto;
   aspect-ratio: 4 / 3;
-
-
-  }
-
-  .main-r {
-    grid-area: info;
-
-    min-width: 0;
-    min-height: 0;
-    width: 100%;
-    height: 100%;
-    padding-right: 0;
-  }
-
-  .mainSide {
-
-  grid-area: name;
-  padding-left: 6vw;
-
-}
-
-.navSide, .navL, .navR{
-
-  padding-bottom: 2vh;
-}
-
-.navL {
-
-  grid-area: navM;
-
 }
 
 
-.project-credits{
 
-  padding-bottom: 12vh;
+.project-content,
+.project-gallery {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
 }
 
-.project-description{
-  padding-bottom: 8vh;
+.project-image{
+  object-fit: contain;
 }
 
-body.project .main {
 
-  overflow: visible;
 
-}
+
 
 
 
@@ -315,6 +276,7 @@ body.project .main {
 
 
   :root {
+    font-size: 16px;
     --font-size-nav: 1.2rem;
     --font-size-body: 0.8rem;
   }

@@ -36,6 +36,7 @@
 * {
   box-sizing: border-box;
   cursor: none !important;
+
 }
 
 
@@ -49,6 +50,8 @@ body {
 
   font-family: 'OpenSans_Light', monospace;
   font-style: normal;
+    max-width: 100%;
+overflow-x: hidden;
 }
 
 

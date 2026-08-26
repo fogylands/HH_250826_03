@@ -1,11 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   const wrapper = document.querySelector('.projects-wrapper');
+
+  function updateScrollableState() {
+  const main = document.querySelector('body.works .main');
+
+  if (!main || !wrapper) return;
+
+  const isScrollable = wrapper.scrollWidth > main.clientWidth;
+
+  wrapper.classList.toggle('is-scrollable', isScrollable);
+}
+
+
   const sortDirections = {
   0: true
 };
 
   if (!wrapper) return;
+
+  window.addEventListener('resize', updateScrollableState);
 
   fetch('../../libraries/03_Projects/projects.json')
     .then(res => res.json())
@@ -18,7 +32,8 @@ projects.sort((a, b) => {
       const header = document.createElement('div');
       header.classList.add('work-row', 'header-row');
 
-    const headers = [
+const headers = [
+  "<",
   "<",
   "<",
   "<",
@@ -75,21 +90,23 @@ cell.addEventListener('click', () => {
 
   projects.sort((a, b) => {
 
-    const valuesA = [
-      a.number,
-      a.location,
-      a.year,
-      a.type,
-      a.status
-    ];
+const valuesA = [
+  a.number,
+  a.name,
+  a.location,
+  a.year,
+  a.type,
+  a.status
+];
 
-    const valuesB = [
-      b.number,
-      b.location,
-      b.year,
-      b.type,
-      b.status
-    ];
+const valuesB = [
+  b.number,
+  b.name,
+  b.location,
+  b.year,
+  b.type,
+  b.status
+];
 
 if (index === 2) { // ZEITRAUM
   const yearA = Number(valuesA[index]?.split('-')[0]) || 0;
@@ -112,6 +129,7 @@ return String(valuesA[index] || '')
     wrapper.appendChild(projectElement);
   });
 
+  updateScrollableState();
 });
 
   header.appendChild(cell);
@@ -124,6 +142,8 @@ return String(valuesA[index] || '')
         const projectElement = await renderProject(project);
         wrapper.appendChild(projectElement);
       }
+
+      updateScrollableState();
 
     })
     .catch(err => console.error('Failed to load projects.json:', err));
@@ -155,11 +175,12 @@ const projectNumber = project.details.includes('Nummer: NEIN')
   : `${project.number}`;
 
 const content = `
-  <div data-column="0">${projectNumber} ${project.name}</div>
-  <div data-column="1">${location}</div>
-  <div data-column="2">${year}</div>
-  <div data-column="3">${type}</div>
-  <div data-column="4">${state}</div>
+  <div data-column="0">${projectNumber}</div>
+  <div data-column="1">${project.name}</div>
+  <div data-column="2">${location}</div>
+  <div data-column="3">${year}</div>
+  <div data-column="4">${type}</div>
+  <div data-column="5">${state}</div>
 `;
 if (hasImages) {
   container.innerHTML = `

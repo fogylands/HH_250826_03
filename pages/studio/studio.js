@@ -36,7 +36,6 @@ detailsR.innerHTML = `
     <a class="link team-link" href="#">Team</a>
     <a class="link jobs-link" href="#">Jobs</a>
     <a class="link publikationen-link" href="#">Publikationen</a>
-    <a class="link aktuell-link" href="#">Aktuell</a>
   </div>
 
   <div class="studio-social-links">
@@ -51,11 +50,15 @@ detailsR.innerHTML = `
   detailsSide.classList.add('detailsSide');
   detailsSide.innerHTML = `
     <div class="link">
-      WARTSTRASSE 16, 8400 WINTERTHUR
+       <a href="https://www.google.com/maps/place/Robert-Sulzer-Gasse+4,+8400+Winterthur/@47.4949784,8.7152935,217m/data=!3m2!1e3!4b1!4m6!3m5!1s0x479a997245c7ba25:0x1729854a375008aa!8m2!3d47.4949784!4d8.7159372!16s%2Fg%2F11qbltbwlm?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+
+      ROBERT-SULZER-GASSE 4, 8400 WINTERTHUR
+
+    </a>
       <br>
-      STUDIO@HOESSLERHOFFMANN.CH
+      <a href="mailto:STUDIO@HOESSLERHOFFMANN.CH">STUDIO@HOESSLERHOFFMANN.CH</a>
       <br>
-      +41 52 228 62 10
+<a href="tel:+41522286210">+41 52 228 62 10</a> 
     </div>
   `;
 
@@ -287,26 +290,7 @@ employeeText.classList.add('full-text');
 
 
 
-aktuellLink.addEventListener('click', (e) => {
 
-  e.preventDefault();
-  setActiveLink(aktuellLink);
-
-  fetch('../../libraries/04_Studio/aktuell.txt')
-    .then(res => res.text())
-    .then(text => {
-
-employeeContent.style.display = 'none';
-
-employeeText.textContent = text;
-employeeText.classList.add('full-text');
-
-    })
-    .catch(error => {
-      console.error("Error loading aktuell.txt:", error);
-    });
-
-});
 
 
 mainR.appendChild(employeeRow);

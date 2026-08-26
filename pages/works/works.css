@@ -1,25 +1,41 @@
 body.works .projects-wrapper {
 
-  width: 100%;
+  width: max-content;
+  min-width: 100%;
 
   display: grid;
 
-  grid-template-columns: repeat(5, max-content);
+  grid-template-columns:   repeat(6, max-content);
     justify-content: space-between;
 
 }
+
+body.works .projects-wrapper.is-scrollable {
+  justify-content: start;
+  column-gap: 2vw;
+}
+
+
+.main {
+  overflow-x: auto;
+}
+
+
+
 
 body.works .work-row {
 
   display: contents;
 
 }
-
 body.works .work-row [data-column] {
-  padding-top:1vh;
-  display:flex;
-  align-items:center;
+  padding-top: 1vh;
+  display: block;
 }
+
+
+
+
 .view-nav {
   display:flex;
   justify-content:space-between;
@@ -393,16 +409,32 @@ text-transform: uppercase;
 
 
 
+
+
+
 /* =================================
    MOBILE LANDSCAPE
 ================================= */
 @media (max-width: 950px) and (orientation: landscape) {
 
 :root {
-  --font-size-nav: 4vh;
+  --font-size-nav: 2vh;
   --font-size-body: 6vh;
 }
 
+
+body.works .main {
+  overflow-x: auto;
+}
+
+body.works .projects-wrapper {
+  width: max-content;
+  min-width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  justify-content: space-between;
+}
 
 .header-l,
 .header-r,
@@ -509,6 +541,14 @@ body.works .container {
   padding-bottom: 0;
   padding-top: 0;
 
+
+}
+
+
+
+
+body.works .projects-wrapper {
+column-gap: 8vw;
 
 }
 
