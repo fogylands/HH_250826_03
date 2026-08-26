@@ -108,11 +108,13 @@ studioLoaded
   .then(studio => {
 
       const employeeContent = document.createElement('div');
-      employeeContent.classList.add('employee-content');
+employeeContent.classList.add('employee-content');
 
-      const employeeList = document.createElement('div');
-      employeeList.classList.add('employee-list');
+const employeeList = document.createElement('div');
+employeeList.classList.add('employee-list');
 
+const employeeText = document.createElement('div');
+employeeText.classList.add('employee-text');
 
       studio.forEach(employee => {
 
@@ -186,6 +188,8 @@ name.addEventListener('click', () => {
 
   employeeContent.appendChild(employeeList);
 
+  employeeContent.appendChild(employeeText);
+
 const employeeRow = document.createElement('div');
 employeeRow.classList.add('employee-row');
 
@@ -222,9 +226,10 @@ teamLink.addEventListener('click', (e) => {
   setActiveLink(teamLink);
 
   employeeContent.style.display = 'block';
+employeeList.style.display = 'block';
 
-  employeeContent.innerHTML = '';
-  employeeContent.appendChild(employeeList);
+employeeContent.innerHTML = '';
+employeeContent.appendChild(employeeList);
 
   employeeText.innerHTML = '';
   employeeText.classList.remove('full-text');
@@ -246,7 +251,8 @@ jobsLink.addEventListener('click', (e) => {
     .then(res => res.text())
     .then(text => {
 
-employeeContent.style.display = 'none';
+employeeContent.style.display = 'block';
+employeeList.style.display = 'none';
 
 employeeText.textContent = text;
 employeeText.classList.add('full-text');
@@ -273,7 +279,8 @@ publikationenLink.addEventListener('click', (e) => {
 
 
 
-employeeContent.style.display = 'none';
+employeeContent.style.display = 'block';
+employeeList.style.display = 'none';
 
 employeeText.textContent = text;
 employeeText.classList.add('full-text');

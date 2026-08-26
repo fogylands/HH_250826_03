@@ -5,17 +5,25 @@ body.index {
 }
 
 
-body.index .container {
+.container {
+  display: grid;
 
-  display:flex;
-  flex-direction:column;
-  min-height:100vh;
+  grid-template-columns: 1fr 1fr;
 
+  grid-template-rows:
+    10vh
+    1fr
+    10vh;
+
+  grid-template-areas:
+    "header-l header-r"
+    "main main"
+    "footer-l footer-r";
 }
+
 
 .footer-l,
 .footer-r {
-  position:sticky;
   font-size:2vh;
   
 }
@@ -32,7 +40,13 @@ body.index .container {
 }
 
 
+.footer-l {
+  grid-area: footer-l;
+}
 
+.footer-r {
+  grid-area: footer-r;
+}
 
 /* =================================
    MOBILE LANDSCAPE

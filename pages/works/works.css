@@ -23,6 +23,8 @@ body.works .projects-wrapper.is-scrollable {
 
 
 
+
+
 body.works .work-row {
 
   display: contents;
@@ -92,6 +94,7 @@ body {
 
   margin: 0;
   padding: 0;
+  padding-left: 0.55vw;
 
   font-family: 'OpenSans_Light', monospace;
   font-style: normal;
