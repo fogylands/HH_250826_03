@@ -24,7 +24,8 @@ body.index {
 
 .footer-l,
 .footer-r {
-  font-size:2vh;
+  font-size:var(--font-size-nav);
+  letter-spacing: var(--letter-spacing-body);
   
 }
 
@@ -51,12 +52,9 @@ body.index {
 /* =================================
    MOBILE LANDSCAPE
 ================================= */
-@media (max-width: 950px) and (orientation: landscape) {
+@media (max-width: 1000px) and (orientation: landscape) {
 
-:root {
-  --font-size-nav: 4vh;
-  --font-size-body: 6vh;
-}
+
 
 
 
@@ -122,7 +120,7 @@ font-size: var(--font-size-nav);
 
 .header-r, .footer-r {
   text-align: left;
-letter-spacing: 0.34em;
+letter-spacing:var( --letter-spacing-nav);
 }
 
 
@@ -132,9 +130,16 @@ letter-spacing: 0.34em;
 
   text-align: right;
 
- letter-spacing: 0.34em;
+ letter-spacing:var( --letter-spacing-body);
 }
 
+.footer-l{
+    display: flex;
+
+  align-items: flex-end;
+  padding-right: 0;
+  letter-spacing:var( --letter-spacing-body);
+}
 
 .header-r {
 text-align: right;
@@ -149,7 +154,7 @@ text-align: right;
 ================================= */
 
 
-@media (max-width: 700px) and (orientation: portrait) {
+@media (max-width: 1000px) and (orientation: portrait) {
 
   /* mobile styles go here */
 
@@ -177,7 +182,7 @@ body.index {
     auto
     auto
     1fr
-    auto
+  85vh
     auto;
 
   width: 100%;
@@ -223,10 +228,11 @@ body.index {
 }
 
 .footer-l {
-  display: block;
+  display: flex;
   width: 100%;
-  min-width: 0;
 
+  min-width: 0;
+  padding-bottom: 0vh;
 
   padding-left: 4vw;
   padding-right: 4vw;
@@ -241,7 +247,7 @@ body.index {
   display: flex;
   flex-direction: column;
   padding-bottom: 4vh;
-
+  padding-top: 8vh;
   align-items: flex-start;
 
 

@@ -26,11 +26,8 @@ padding-right: 30vw;
 ================================= */
 
 
-@media (max-width: 900px) and (orientation: landscape) {
-  :root {
-    --font-size-nav: 4vh;
-    --font-size-body: 3vh;
-  }
+@media (max-width: 1000px) and (orientation: landscape) {
+ 
 
 
   .main-l{
@@ -86,6 +83,11 @@ padding-right: 30vw;
   }
 
 
+body.impressum .footer-l {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 body.impressum .main-l {
   padding-left: 4vw !important;
   padding-right: 10vw !important;

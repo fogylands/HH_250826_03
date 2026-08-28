@@ -225,7 +225,7 @@ link.dataset.category = category;
 
       const imgElement = document.createElement('img');
 
-      imgElement.src = `../../libraries/03_Projects/_thumbnails/${project.id}/${category}/${img}`;
+      imgElement.src = `../../libraries/03_Projects/${project.id}/${category}/${img}`;
 
       imgElement.classList.add('project-image');
       imgElement.dataset.category = category;

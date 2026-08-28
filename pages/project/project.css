@@ -9,7 +9,8 @@
   grid-template-areas:
     "navSide navL navR"
     "mainSide mainL projectText"
-    "detailsSide detailsL detailsL";
+    "detailsSide detailsL .";
+    padding-left: 6vw;
 }
 
 
@@ -18,6 +19,12 @@
 /* =================================
    MAIN GRID
 ================================= */
+.header-l{
+padding-left: 12vw;
+
+
+}
+
 
 .navL {
   display: flex;
@@ -90,7 +97,6 @@
   display: block;
   white-space: nowrap;
   overflow: visible;
-  font-size: var(--font-size-nav);
     margin-left: auto;
 }
 
@@ -155,7 +161,6 @@
   padding-left: 0;
   margin-top: 0;
   padding-bottom: 10vh;
-  padding-right: 20vw;
   padding-top: 5vh;
 }
 
@@ -172,7 +177,7 @@
 
 
 .project-title{
-  font-size: 2vh;
+  font-size:var(--font-size-nav);
  line-height: 0.5vh;
 }
 
@@ -203,11 +208,7 @@
 
 @media (max-width: 1000px) and (orientation: landscape) {
 
-   :root {
-    font-size: 16px;
-    --font-size-nav: 1.2rem;
-    --font-size-body: 0.8rem;
-  }
+
 
   .main {
 
@@ -221,7 +222,7 @@
 
       "detailsSide detailsL detailsL";
 
-    grid-template-columns: 11vw auto minmax(0, 1fr);
+    grid-template-columns: 4vw 4fr  3fr;
 
     grid-template-rows:
 
@@ -267,7 +268,7 @@
 
 
 
-@media (max-width: 950px) and (orientation: portrait) {
+@media (max-width: 1000px) and (orientation: portrait) {
 .main {
   grid-template-columns: 11vw minmax(0, 1fr);
 
@@ -278,11 +279,7 @@
     ". description";
 }
 
-  :root {
-    font-size: 16px;
-    --font-size-nav: 1.2rem;
-    --font-size-body: 0.8rem;
-  }
+
 
   .container {
   display: grid;
@@ -315,7 +312,7 @@ padding-bottom: 8vh;
   }
 
 .main {
-  grid-template-columns: 11vw minmax(0, 1fr);
+  grid-template-columns: 6vw minmax(0, 1fr);
 
 
 grid-template-areas:
@@ -342,14 +339,14 @@ grid-template-areas:
 
   text-align: left;
    padding-top: 2vh;
-  padding-left: 15vw;
+  padding-left: 14vw;
   
 }
 
 .header-r{
 
   padding: 0vw;
-  padding-left: 15vw;
+  padding-left: 14vw;
  
   display: flex;
   flex-direction: column;

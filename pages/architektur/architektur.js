@@ -165,12 +165,17 @@ function renderMobileProjects() {
       'mobile-project-header'
     );
 
-    projectHeader.innerHTML = `
-      <a href="../project/project.html?id=${project.name}">
-        ${project.number}<br>
-        ${project.name}
-      </a>
-    `;
+    const projectNumber = project.details.includes('Nummer: NEIN')
+
+  ? ''
+
+  : `${project.number}<br>`;
+projectHeader.innerHTML = `
+  <a href="../project/project.html?id=${project.name}">
+    ${projectNumber}
+    ${project.name}
+  </a>
+`;
 
 
     /* GALLERY */

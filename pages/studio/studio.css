@@ -99,7 +99,9 @@ body {
 }
 
 
-
+.employee-text {
+  margin-top: -2em;
+}
 
 .employee-list{
 
@@ -130,7 +132,7 @@ padding-bottom: 6vh;
    flex-direction: column;
   justify-content: flex-end;
   height: 100%;
-  font-size: 2vh;
+  font-size:var(--font-size-nav);
 text-transform: uppercase;
 }
 
@@ -167,10 +169,10 @@ text-transform: uppercase;
 }
 .detailsSide{
   text-transform: uppercase;
-    font-size: 2vh;
+    font-size:var(--font-size-nav);
 
   padding-left:6vw;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--letter-spacing);
   
 
 
@@ -245,7 +247,7 @@ text-transform: uppercase;
 
 
 
-@media (max-width: 1200px) and (min-width: 951px) {
+@media (max-width: 1200px) and (min-width: 1001px) {
 
   body.studio {
   overflow-y: auto;
@@ -293,7 +295,7 @@ text-transform: uppercase;
   
     max-content
 
-        max-content
+    max-content
 
     auto;
 
@@ -358,6 +360,8 @@ text-transform: uppercase;
   height: auto;
 }
 
+
+
   .detailsR {
     grid-area: details;
     height: 20vh;
@@ -371,7 +375,7 @@ text-transform: uppercase;
   .detailsSide {
   text-transform: uppercase;
   align-items: flex-start;
-  font-size: 2vh;
+  font-size:var(--font-size-nav);
   padding-left: 6vw;
 
 }
@@ -421,7 +425,7 @@ text-transform: uppercase;
 
 
 
-@media (max-width: 950px) and (orientation: landscape) {
+@media (max-width: 1000px) and (orientation: landscape) {
 html,
 
 body {
@@ -437,10 +441,6 @@ body {
 }
 
 
-  :root {
-    --font-size-nav: 1.8vh;
-    --font-size-body: 1vh;
-  }
 
   .container {
     display: grid;
@@ -462,6 +462,9 @@ body {
     text-align:right;
   }
 
+  .header-l{
+    padding-left: 12vw;
+  }
 
   }
 .main {
@@ -472,6 +475,7 @@ grid-template-columns:
 
   max-width: auto;
   box-sizing: border-box;
+  padding-left: 6vw;
 }
 
 
@@ -577,20 +581,18 @@ grid-template-rows:
   flex: 1 1 auto;
   min-width: 0;
   min-height: 0;
+  font-size: var(--font-size-body);
 }
+
+
+.detailsSide, .detailsL, .detailsR {
+  padding-top: 20vh;
 }
 
+}
 
+@media (max-width: 1000px) and (orientation: portrait){
 
-
-
-
-@media (max-width: 900px) and (orientation: portrait){
-   :root {
-    font-size: 16px;
-    --font-size-nav: 1.2rem;
-    --font-size-body: 1rem;
-  }
 
 .main-l,
 .main-r,
@@ -728,6 +730,11 @@ padding-left: 6vw;
 
 .detailsSide{
   font-size: var(--font-size-body);
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+align-items: flex-end;
+
 }
 
 .studio-section-links {
@@ -787,12 +794,18 @@ padding-left: 6vw;
   flex-direction: column;
 align-items: flex-start;
   justify-content: flex-start;
-    letter-spacing: 0.08em;
+  font-size:var(--font-size-nav);
+   letter-spacing: var(--letter-spacing-body);
 }
+
+.employee-text{
+font-size: var(--font-size-body);
+}
+
 
 .employee-list .employee-text {
   grid-column: 1 / -1;
-  margin: 0 0 2vh 0;
+  margin: -2em 0 2vh 0;
   padding: 0;
     text-transform: none;
 }
@@ -803,6 +816,9 @@ align-items: flex-start;
   min-width: 0;
 }
 
+.studio-section-links{
+  padding-bottom: 2vh;
+}
 
 .project-image {
   width: 100%;

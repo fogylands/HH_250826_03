@@ -111,7 +111,7 @@
 }
 
 .project-gallery-row:hover .project-name {
-  color: #457d08
+  color:var(--accent-color);
 }
 
 
@@ -126,17 +126,23 @@
 .categories {
   display: none;
 }
-
-
-
-
-
-
 /* =================================
    MOBILE LANDSCAPE
 ================================= */
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) and (orientation: landscape) {
+  .header-l{
+    padding-left: 12vw;
+  }
+
+.main{
+  padding-left: 6vw;
+}
+}
+
+
+
+@media (max-width: 1000px) and (orientation: portrait) {
 
 
   /* =================================
@@ -168,7 +174,7 @@
 
 .main {
   display: grid;
-  grid-template-columns: 5vw minmax(0, 1fr);
+  grid-template-columns: 6vw minmax(0, 1fr);
   column-gap: 2vw;
 }
 
@@ -270,13 +276,13 @@
 
 
 .project-gallery-row:hover .project-name {
-  color: #457d08;
+  color: var(--accent-color);
 }
 
 
 
 .mobile-project:hover .mobile-project-header a {
-  color: #457d08;
+  color: var(--accent-color);
 }
 
 
@@ -298,6 +304,7 @@
   font-size: var(--font-size-nav);
 margin: 0vw;
      width:100%;
+     padding-left: -1vw;
 }
 
 
@@ -313,7 +320,7 @@ margin: 0vw;
   left: 0;
   bottom: 0;
 
-  font-size: var(--project-name-size) !important;
+  font-size:var(--font-size-nav) !important;
   transform-origin: bottom left;
 
   white-space: nowrap;
