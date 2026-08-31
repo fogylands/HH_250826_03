@@ -127,8 +127,8 @@ name.addEventListener('click', () => {
   const isActive = name.classList.contains('active');
 
   // Remove any currently open employee text
-  employeeList.querySelectorAll('.employee-text')
-    .forEach(item => item.remove());
+employeeList.querySelectorAll('.employee-text, .employee-text-spacer')
+  .forEach(item => item.remove());
 
   // Remove active state
   document.querySelectorAll('.employee-list p')
@@ -142,8 +142,13 @@ name.addEventListener('click', () => {
   // Otherwise activate this employee
   name.classList.add('active');
 
-  const text = document.createElement('div');
-  text.classList.add('employee-text');
+const text = document.createElement('div');
+text.classList.add('employee-text');
+
+const spacer = document.createElement('div');
+spacer.classList.add('employee-text-spacer');
+
+
 
   text.innerHTML = `
     <div class="employee-text-lines">
@@ -177,8 +182,10 @@ name.addEventListener('click', () => {
         .join('')}
     </div>
   `;
+name.insertAdjacentElement('afterend', text);
+text.insertAdjacentElement('afterend', spacer);
 
-  name.insertAdjacentElement('afterend', text);
+
 
 });
 

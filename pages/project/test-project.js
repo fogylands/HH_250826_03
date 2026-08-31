@@ -321,7 +321,7 @@ function updateActiveCategory(category) {
 function updateProjectLayoutLandscape() {
 
   const main = document.querySelector('.main');
-  const mainL = document.querySelector('.mainL');
+  const mainL = document.querySelector('.main-l');
   const navL = document.querySelector('.navL');
 
   if (!main || !mainL || !navL) return;
@@ -330,7 +330,16 @@ function updateProjectLayoutLandscape() {
 
   const rows = styles.gridTemplateRows.split(' ');
 
+  const galleryHeight = parseFloat(rows[1]);
 
+  const galleryWidth =
+    galleryHeight * 4 / 3;
+
+  mainL.style.width =
+    `${galleryWidth}px`;
+
+  navL.style.width =
+    `${galleryWidth}px`;
 }
 
 

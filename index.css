@@ -182,7 +182,7 @@ body.index {
     auto
     auto
     1fr
-  85vh
+  86.5vh
     auto;
 
   width: 100%;
@@ -232,7 +232,7 @@ body.index {
   width: 100%;
 
   min-width: 0;
-  padding-bottom: 0vh;
+  padding-bottom: 2vh;
 
   padding-left: 4vw;
   padding-right: 4vw;
@@ -246,7 +246,7 @@ body.index {
 .footer-r {
   display: flex;
   flex-direction: column;
-  padding-bottom: 4vh;
+  padding-bottom: 2vh;
   padding-top: 8vh;
   align-items: flex-start;
 

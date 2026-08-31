@@ -184,6 +184,7 @@
 
 .categories {
   grid-column: 2;
+
 }
 
 .header-l, .header-r{
@@ -290,6 +291,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+    margin-left:-1vw;
+  width:calc(100% + 1vw);
   margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -304,7 +307,9 @@
   font-size: var(--font-size-nav);
 margin: 0vw;
      width:100%;
-     padding-left: -1vw;
+   margin-left:-1vw;
+  width:calc(100% + 1vw);
+     
 }
 
 

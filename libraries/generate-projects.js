@@ -266,11 +266,10 @@ const folderImages =
     )
     .sort()
     .map(file =>
-      path.parse(file).name + '.jpg'
+      file.replace(/\.(jpeg|jpg|png|webp)$/i, '.jpg')
     );
-  
-      images[folder] = folderImages;
-    }
+
+images[folder] = folderImages;}
 
 
     /* -------------------------

@@ -158,6 +158,7 @@ a.active {
   color: black;
   display: inline-block;
   transform: rotate(90deg);
+    font-size: var(--font-size-nav);
 }
 
 .sort-header.column-hover span {
@@ -201,7 +202,7 @@ body.works .works-project [data-clickable="true"]:hover {
   height: 100vh;
   grid-template-rows:
 
-    10vh  10vh 1fr;
+    10vh  1vh 1fr;
 
 
   
@@ -241,7 +242,7 @@ text-transform: uppercase;
   display:flex;
   justify-content:space-between;
   font-size:var(--font-size-nav);
-  padding:2vh 2vw;
+  padding:0 2vw;
   margin-left:6vw;
   width:calc(100% - 6vw);
 
@@ -612,7 +613,8 @@ overflow-y: auto;
 
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto 1fr auto auto;
-    padding-left: 8vw;
+    padding-left: 7vw;
+      width: 100%;
   }
 
 
@@ -653,7 +655,7 @@ overflow-y: auto;
 
 body.works .container {
   width: 100%;
-  max-width: 95vw;
+  max-width: 92vw;
   overflow-x: visible;
 }
 
@@ -661,11 +663,12 @@ body.works .container {
 
 .view-nav {
 
-
+padding-right: 0vw;
 
   padding-bottom: 0;
-  padding-top: 0;
+  padding-top: 2vh;
 
+   width:100%;
 
 }
 
