@@ -5,5 +5,5 @@ Die Überbauung in Hinteregg entwickelt aus der heterogenen dörflichen Umgebung
 Ort: Hinteregg
 Zeitraum: 2023-
 Art: Studienauftrag, 1. Preis
-Status: In Bearbeitung, Referenz BDE
+Status: Referenz, In Bearbeitung
 Nummer: NEIN

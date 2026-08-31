@@ -19,6 +19,11 @@ padding-right: 30vw;
 
 
 
+body.impressum .footer-l {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 
 /* =================================

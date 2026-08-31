@@ -6,5 +6,5 @@ Das Wohnhaus liegt mit seinem für das Quartier typischen Vorgarten direkt an de
 Ort: Winterthur
 Zeitraum: 2022-2026
 Art: Direktauftrag
-Status: Realisiert, Referenz BDE
+Status: Referenz, Realisiert
 Nummer: NEIN

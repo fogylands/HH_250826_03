@@ -1,11 +1,12 @@
 
 
-.container{
+.container {
+  min-height: 100vh;
+  height: auto;
 
-  grid-template-columns:
-  auto, auto;
+  grid-template-rows:
+    10vh auto;
 }
-
 
 /* =================================
    MAIN GRID
@@ -21,6 +22,11 @@ body {
    minmax(0, 2fr)
 
     minmax(0, 2fr);
+
+.main {
+  grid-template-rows:
+    5vh auto max-content;
+}
 }
 .main-l,
 .main-r {

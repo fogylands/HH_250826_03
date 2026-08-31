@@ -1,9 +1,9 @@
-Lorem Ipsum.
+Text folgt.
 <br>
 
 
 Ort: Lupfig
 Zeitraum: 2025
 Art: Studienauftrag, 1. Preis
-Status: Abgeschlossen
+Status: Referenz, Abgeschlossen
 Nummer: NEIN

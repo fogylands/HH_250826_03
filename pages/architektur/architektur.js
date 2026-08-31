@@ -171,7 +171,7 @@ function renderMobileProjects() {
 
   : `${project.number}<br>`;
 projectHeader.innerHTML = `
-  <a href="../project/test-project.html?id=${project.name}">
+  <a href="../project/project.html?id=${project.name}">
     ${projectNumber}
     ${project.name}
   </a>
@@ -288,7 +288,7 @@ const projectNumber = project.details.includes('Nummer: NEIN')
   : `<span class="project-number">${project.number}</span><br>`;
 
 header.innerHTML = `
-  <a class="project-name" href="../project/test-project.html?id=${project.name}">
+  <a class="project-name" href="../project/project.html?id=${project.name}">
     ${projectNumber}
     <span>${project.name}</span>
   </a>

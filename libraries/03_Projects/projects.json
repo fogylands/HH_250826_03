@@ -20,9 +20,9 @@
     "credits": "",
     "location": "Murten",
     "year": "2020-2025",
-    "type": "Direktauftrag",
+    "type": "Umbau, Direktauftrag",
     "status": "Realisiert",
-    "details": "Ort: Murten\nZeitraum: 2020-2025\nArt: Direktauftrag\nStatus: Realisiert",
+    "details": "Ort: Murten\nZeitraum: 2020-2025\nArt: Umbau, Direktauftrag\nStatus: Realisiert",
     "images": {}
   },
   {
@@ -50,12 +50,12 @@
         "HH_WEBSITE_2608208.jpg",
         "HH_WEBSITE_2608209.jpg"
       ],
-      "3_ANSICHTEN": [
+      "3_SCHNITTE": [
+        "HH_WEBSITE_26082013.jpg"
+      ],
+      "4_ANSICHTEN": [
         "HH_WEBSITE_26082011.jpg",
         "HH_WEBSITE_26082012.jpg"
-      ],
-      "4_SCHNITT": [
-        "HH_WEBSITE_26082013.jpg"
       ],
       "5_DETAILS_WEITERES": [
         "HH_WEBSITE_26082014.jpg",
@@ -66,8 +66,8 @@
   },
   {
     "number": "1900B",
-    "name": "FERIENWOHNUNG BERG",
-    "id": "1900B_FERIENWOHNUNG_BERG_LENZERHEIDE",
+    "name": "FERIENWOHNUNG SEESTRASSE",
+    "id": "1900B_FERIENWOHNUNG_SEESTRASSE_LENZERHEIDE",
     "description": "Lorem ipsum\n<br>",
     "credits": "",
     "location": "Lenzerheide",
@@ -92,8 +92,8 @@
   },
   {
     "number": "2000A",
-    "name": "ÜBERBAUUNG BERNSTR",
-    "id": "2000A_ÜBERBAUUNG_BERNSTR_OSTERMUNDIGEN",
+    "name": "ÜBERBAUUNG BERNSTRASSE",
+    "id": "2000A_ÜBERBAUUNG_BERNSTRASSE_OSTERMUNDIGEN",
     "description": "Lorem ipsum\n<br>",
     "credits": "",
     "location": "Bern",
@@ -105,8 +105,8 @@
   },
   {
     "number": "2001",
-    "name": "WOHNÜBERBAUUNG BAHNHOFSTR BAD",
-    "id": "2001_WOHNÜBERBAUUNG_BAHNHOFSTR_BAD_RAGAZ",
+    "name": "WOHNÜBERBAUUNG BAHNHOFSTR",
+    "id": "2001_WOHNÜBERBAUUNG_BAHNHOFSTR_BAD-RAGAZ",
     "description": "Lorem ipsum\n<br>",
     "credits": "",
     "location": "Bad Ragaz",
@@ -122,11 +122,11 @@
     "id": "2003_SCHLOSS_HAGENAU_ST-PETER-AM-HART",
     "description": "Lorem ipsum\n<br>",
     "credits": "",
-    "location": "St. Peter am Hart A",
+    "location": "St. Peter am Hart (A)",
     "year": "2020-2021",
     "type": "Machbarkeitsstudie",
     "status": "Abgeschlossen",
-    "details": "Ort: St. Peter am Hart A\nZeitraum: 2020-2021\nArt: Machbarkeitsstudie\nStatus: Abgeschlossen",
+    "details": "Ort: St. Peter am Hart (A)\nZeitraum: 2020-2021\nArt: Machbarkeitsstudie\nStatus: Abgeschlossen",
     "images": {}
   },
   {
@@ -199,16 +199,16 @@
     "location": "Hinteregg",
     "year": "2023-",
     "type": "Studienauftrag, 1. Preis",
-    "status": "In Bearbeitung, Referenz BDE",
-    "details": "Ort: Hinteregg\nZeitraum: 2023-\nArt: Studienauftrag, 1. Preis\nStatus: In Bearbeitung, Referenz BDE\nNummer: NEIN",
+    "status": "Referenz, In Bearbeitung",
+    "details": "Ort: Hinteregg\nZeitraum: 2023-\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, In Bearbeitung\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
         "1_HH_WEBSITE_26012693.jpg",
-        "HH_WEBSITE_26012690.jpg",
-        "HH_WEBSITE_26012691.jpg",
         "HH_WEBSITE_26012692.jpg",
         "HH_WEBSITE_26012694.jpg",
-        "HH_WEBSITE_26012695.jpg"
+        "HH_WEBSITE_26012695.jpg",
+        "Z_HH_WEBSITE_26012690.jpg",
+        "Z_HH_WEBSITE_26012691.jpg"
       ],
       "2_GRUNDRISSE": [
         "HH_WEBSITE_26082010.jpg",
@@ -220,23 +220,23 @@
         "HH_WEBSITE_2608208.jpg",
         "HH_WEBSITE_2608209.jpg"
       ],
-      "3_ANSICHTEN": [
+      "3_SCHNITTE": [
         "HH_WEBSITE_260126105.jpg",
         "HH_WEBSITE_260126107.jpg",
         "HH_WEBSITE_260126108.jpg",
         "HH_WEBSITE_260126109.jpg"
       ],
-      "4_SCHNITTE": [
+      "4_ANSICHTEN": [
         "HH_WEBSITE_260126110.jpg",
         "HH_WEBSITE_260126111.jpg",
-        "HH_WEBSITE_260126113.jpg"
+        "HH_WEBSITE_260126113.jpg",
+        "Z_HH_WEBSITE_260126112.jpg",
+        "Z_HH_WEBSITE_260126114.jpg"
       ],
       "5_DETAILS_WEITERES": [
         "1_HH_WEBSITE_260126117.jpg",
         "1_HH_WEBSITE_260126118.jpg",
         "1_HH_WEBSITE_260126119.jpg",
-        "HH_WEBSITE_260126112.jpg",
-        "HH_WEBSITE_260126114.jpg",
         "HH_WEBSITE_260126115.jpg",
         "HH_WEBSITE_260126116.jpg"
       ]
@@ -251,8 +251,8 @@
     "location": "Galgenen",
     "year": "2022-2026",
     "type": "Wettbewerb, selektiv, 3. Preis",
-    "status": "Abgeschlossen, Referenz BDE",
-    "details": "Ort: Galgenen\nZeitraum: 2022-2026\nArt: Wettbewerb, selektiv, 3. Preis\nStatus: Abgeschlossen, Referenz BDE\nNummer: NEIN",
+    "status": "Referenz, Abgeschlossen",
+    "details": "Ort: Galgenen\nZeitraum: 2022-2026\nArt: Wettbewerb, selektiv, 3. Preis\nStatus: Referenz, Abgeschlossen\nNummer: NEIN",
     "images": {}
   },
   {
@@ -274,24 +274,24 @@
     "id": "2202_POOLHAUS_MAS_NEUF_TORNAC",
     "description": "Lorem ipsum\n<br>",
     "credits": "",
-    "location": "Tornac FR",
+    "location": "Tornac (F)",
     "year": "2022-",
     "type": "Direktauftrag",
     "status": "In Bearbeitung",
-    "details": "Ort: Tornac FR\nZeitraum: 2022-\nArt: Direktauftrag\nStatus: In Bearbeitung",
+    "details": "Ort: Tornac (F)\nZeitraum: 2022-\nArt: Direktauftrag\nStatus: In Bearbeitung",
     "images": {}
   },
   {
     "number": "2300A",
     "name": "AREALENTWICKLUNG PFRUNDLAND",
     "id": "2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG",
-    "description": "Lorem Ipsum.\n<br>",
-    "credits": "Auftraggeber: Lägern Wohnen<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: <br>Visualisierungen: Atelier Brunecky",
+    "description": "Text folgt.\n<br>",
+    "credits": "Auftraggeber: Lägern Wohnen<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: Bernhard Zingler Landscape Projects<br>Visualisierungen: Atelier Brunecky",
     "location": "Lupfig",
     "year": "2025",
     "type": "Studienauftrag, 1. Preis",
-    "status": "Abgeschlossen",
-    "details": "Ort: Lupfig\nZeitraum: 2025\nArt: Studienauftrag, 1. Preis\nStatus: Abgeschlossen\nNummer: NEIN",
+    "status": "Referenz, Abgeschlossen",
+    "details": "Ort: Lupfig\nZeitraum: 2025\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, Abgeschlossen\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
         "1_HH_WEBSITE_2608204.jpg",
@@ -307,15 +307,15 @@
         "HH_WEBSITE_2608208.jpg",
         "HH_WEBSITE_2608209.jpg"
       ],
-      "3_ANSICHTEN": [
-        "HH_WEBSITE_26082011.jpg",
-        "HH_WEBSITE_26082012.jpg",
-        "HH_WEBSITE_26082013.jpg"
-      ],
-      "4_SCHNITT": [
+      "3_SCHNITTE": [
         "HH_WEBSITE_260820.jpg",
         "HH_WEBSITE_2608202.jpg",
         "HH_WEBSITE_2608203.jpg"
+      ],
+      "4_ANSICHTEN": [
+        "HH_WEBSITE_26082011.jpg",
+        "HH_WEBSITE_26082012.jpg",
+        "HH_WEBSITE_26082013.jpg"
       ],
       "5_DETAILS_WEITERES": [
         "HH_WEBSITE_26082014.jpg",
@@ -335,8 +335,8 @@
     "location": "Winterthur",
     "year": "2022-2026",
     "type": "Direktauftrag",
-    "status": "Realisiert, Referenz BDE",
-    "details": "Ort: Winterthur\nZeitraum: 2022-2026\nArt: Direktauftrag\nStatus: Realisiert, Referenz BDE\nNummer: NEIN",
+    "status": "Referenz, Realisiert",
+    "details": "Ort: Winterthur\nZeitraum: 2022-2026\nArt: Direktauftrag\nStatus: Referenz, Realisiert\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
         "1_2114_ROEMERSTRASSE_1_VIS_01.jpg",
@@ -427,14 +427,14 @@
     "location": "Langnau am Albis",
     "year": "2024",
     "type": "Studienauftrag, 1. Preis",
-    "status": "Referenz, BDE",
-    "details": "Ort: Langnau am Albis\nZeitraum: 2024\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, BDE\nNummer: NEIN",
+    "status": "Referenz, Abgeschlossen",
+    "details": "Ort: Langnau am Albis\nZeitraum: 2024\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, Abgeschlossen\nNummer: NEIN",
     "images": {}
   },
   {
     "number": "2403",
-    "name": "ZIEGELHUETTE",
-    "id": "2403_ZIEGELHUETTE_REIGOLDSWIL",
+    "name": "WOHNHAUS ZIEGELHUETTE",
+    "id": "2403_WOHNHAUS_ZIEGELHUETTE_REIGOLDSWIL",
     "description": "Lorem ipsum\n<br>",
     "credits": "",
     "location": "Reigoldswil",

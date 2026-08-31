@@ -2,7 +2,7 @@ Lorem ipsum
 <br>
 
 
-Ort: Tornac FR
+Ort: Tornac (F)
 Zeitraum: 2022-
 Art: Direktauftrag
 Status: In Bearbeitung

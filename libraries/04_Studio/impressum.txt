@@ -1,24 +1,14 @@
-RESPONSIBLE ENTITY
 Hössler Hoffmann Architektur GmbH
 Wartstrasse 16, CH-8400 Winterthur
 studio@hoesslerhoffmann.ch
 CHE-115.205.534
 
-DISCLAIMER
-We assume no liability for the accuracy, completeness, or timeliness of the information. Liability for damages resulting from the use or non-use of published content, misuse of forms or email communication, or technical issues (e.g. data breaches) is excluded. All content is subject to change without notice.
+Für die Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Informationen wird keine Haftung übernommen. Die Website kann ohne Angabe persönlicher Daten genutzt werden. Für Inhalte fremder, mit dieser Seite verknüpfter Websites, wird keine Verantwortung übernommen.
 
-Use of this website is generally possible without providing personal information. When using contact forms or email, data transmission may involve security risks. We cannot guarantee full protection from third-party access.
+Sämtliche Urheber- und sonstigen Rechte an den Inhalten, Bildern, Fotografien und weiteren Dateien auf dieser Website liegen bei der Hössler Hoffmann Architektur GmbH oder den jeweils genannten Rechteinhabern. Bei älteren Referenzbildern kann eine entsprechende Urheberangabe fehlen. Die Vervielfältigung oder anderweitige Nutzung bedarf der vorherigen schriftlichen Zustimmung der jeweiligen Rechteinhaber.
 
-DATA PROTECTION
-We comply with the Swiss Federal Act on Data Protection. Personal data is processed confidentially and not shared without consent.
+(Das Video auf der Startseite entstand als künstlerische Arbeit von Colin Müller und Maximilian Sommerauer während ihres Studiums an der ETH Zürich, "Zweite Moderne" bei Prof. E. Mosayebi, 2021)
 
-EXTERNAL LINKS
-We are not responsible for external websites linked from this site. Use of such links is at the user's own risk.
+Der Hosting-Anbieter speichert automatisch Server-Logdaten. Zudem werden Google Search Console und die damit verbundenen Dienste zur Analyse und Optimierung der Website eingesetzt.
 
-Copyright
-All content, images, and media are protected by copyright and belong to Hössler Hoffmann Architektur GmbH or credited rights holders. Reproduction requires prior written permission.
-
-(The homepage video was developed by Colin Hössler and Maximilian Sommerauer as part of a semester project at ETH Zurich.)
-
-SERVER LOGS
-For technical and statistical purposes, our hosting provider automatically stores anonymized server log data (e.g. IP address, browser type, operating system, referrer URL, time of access). These logs are not linked to personally identifiable users and are not merged with other data sources.
+Programmierung: fogylands (Alex Müller)

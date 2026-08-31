@@ -1,130 +1,264 @@
 
+/* =================================
+   FONTS
+================================= */
+
+@font-face {
+  font-family: 'OpenSans_Regular';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'OpenSans_Light';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Light.ttf') format('truetype');
+}
+
+
+/* =================================
+   VARIABLES
+================================= */
+
+
+:root {
+  --accent-color: #457d08;
+  font-size: 16px;
+  --font-size-nav: 1.3rem;
+  --letter-spacing-nav: 0.34em;
+  --font-size-body: 1rem;
+  --letter-spacing-body: 0.08em;
+  
+}
+
+
+@media (max-width: 1000px) and (orientation: landscape) {
+  :root {
+    --font-size-nav: 1.3rem;
+     --letter-spacing-nav: 0.34em;
+    --font-size-body: 0.9rem;
+    --letter-spacing-body: 0.08em;
+  }
+}
+
+@media (max-width: 1000px) and (orientation: portrait) {
+  :root {
+    --font-size-nav: 1.2rem;
+    --letter-spacing-nav: 0.34em;
+    --font-size-body: 0.9rem;
+    --letter-spacing-body: 0.08em;
+  }
+}
+
+
+
+/* =================================
+   RESET
+================================= */
+
+* {
+  box-sizing: border-box;
+  cursor: none !important;
+
+}
+
+
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'OpenSans_Light', monospace;
+  font-style: normal;
+    max-width: 100%;
+overflow-x: hidden;
+}
+
+
+
+/* =================================
+   BODY
+================================= */
+
+body {
+
+  font-size: var(--font-size-body);
+  letter-spacing: var(--letter-spacing-body);
+  background-color: #F2F2F2;
+
+  
+
+}
+
+
+/* =================================
+   LINKS
+================================= */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+a:hover,
+a.active {
+  color: var(--accent-color);
+}
+
+
+
+/* =================================
+   GRID
+================================= */
+
+.container{
+  min-height: 100dvh;
+}
+
+
+.header-grid{
+    display: grid;
+    grid-template-areas:
+    "headerL headerR";
+
+    grid-template-columns: 1fr 1fr;
+    height: 10vh;
+}
 
 
 
 
 
-/* DESKTOP */
+
+
 .main {
+  display: grid;
+
   grid-template-areas:
     "navSide navL navR"
-    "mainSide mainL projectText"
-    "detailsSide detailsL .";
-    padding-left: 6vw;
+    "mainSide mainL mainR"
+    "detailSide detailsL detailsR";
+
+  grid-template-columns:
+    4vw minmax(0, auto) minmax(40%, 1fr);
+
+grid-template-rows:
+  5vh auto minmax(10vh, 1fr);
+
+  gap: 2vh 2vw;
+
+width: 100vw;
+
+  padding: 2vh 2vw;
+
 }
+
+
+.navSide{
+grid-area: navSide;
+}
+
+.navL{
+grid-area: navL;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+
+.navR{
+grid-area: navR;
+text-align: right;
+}
+
+
+.mainSide{
+grid-area: mainSide;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+
+.mainL{
+grid-area: mainL;
+}
+
+
+.mainR{
+grid-area: mainR;
+}
+
+
+.detailSide{
+grid-area: detailSide;
+}
+
+
+.detailsL{
+grid-area: detailsL;
+}
+
+.detailsR{
+grid-area: detailsR;
+}
+
+
 
 
 
 
 /* =================================
-   MAIN GRID
+   PROJECT TITLE
 ================================= */
-.header-l{
-padding-left: 12vw;
-
-
-}
-
-
-.navL {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 100%;
-  width: 100%;
-  min-width: 0;
-}
-
-.main-l {
-  width: auto;
-  max-width: 100%;
-  aspect-ratio: 4 / 3;
-  height: auto;
-  min-width: 0;
-  min-height: 0;
-  align-self: start;
-  overflow: hidden;
-
-
-}
-
-
-
-.project-text {
-  grid-area: projectText;
-  min-width: 0;
-  min-height: 0;
-  width: 100%;
-  height: auto;
-  padding-right: 0;
-  overflow-y: auto;
-  overflow-x: visible;
-
-}
-
-.main-r::-webkit-scrollbar {
-  display: none;
-}
-
-.mainSide {
-
-  grid-area:mainSide;
-
-  display:flex;
-
-  align-items:flex-end;
-
-  height:100%;
-    overflow: visible;
- justify-content: flex-end;
-}
-
-.project-middle {
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
-}
-
-.project-description {
-  margin-top:auto;
-}
-
 
 
 .project-name {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  display: block;
-  white-space: nowrap;
-  overflow: visible;
-    margin-left: auto;
-}
 
+  writing-mode:vertical-rl;
 
-.project-header {
+  transform:rotate(180deg);
+
+  display:block;
   display: flex;
+flex-direction: column;
+justify-content: flex-end;
 
-  justify-content: flex-end; /* right */
-  align-items: flex-end;    /* bottom */
 }
 
+.project-header{
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
 
 
 
 .project-nav {
-  display:flex;
-  justify-content:space-between;
-  width:100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
 }
 
 
-
-
-.project-content,
-.project-gallery {
-  width: 100%;
-  height: 100%;
+.project-text{
+  grid-area: mainR;
+  text-transform: uppercase;
+  padding-left: 8vw;
 }
+
+
+.Image-Container img {
+ width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 .project-image {
   display: none;
@@ -141,63 +275,110 @@ padding-left: 12vw;
 
 
 
+/* =================================
+   HEADER
+================================= */
+.headerL,
+.headerR {
+  font-size: var(--font-size-nav);
+  padding-top: 2vh;
+  letter-spacing:var(--letter-spacing-nav);
+
+}
+
+.headerL {
+  font-family: 'Opensans_Regular';
+  padding-left: 8vw;
+
+}
 
 
+.headerR {
+  text-align: right;
+  padding-right: 2vw;
+    margin-right: -0.34em;
+}
+
+
+.headerL,
+
+.headerR {
+  font-size: var(--font-size-nav);
+  letter-spacing: var(--letter-spacing-nav);
+    color: black;
+
+
+
+    position: relative;
+
+    z-index: 10;
+     padding-top: 2vh;
+       padding-left: 8vw;
+
+}
+
+.headerL{
+  font-family: 'OpenSans_Regular';
+ 
+}
+
+
+.headerR{
+  text-align: right;
+  padding-right: 2vw;
+ 
+}
 
 
 
 /* =================================
-   RIGHT SIDE
+   CURSOR
 ================================= */
-.project-credits {
-  padding-left: 8vw;
-  padding-bottom: 8vh;
-  text-transform: uppercase;
+
+
+#cursor-cross {
+
+  position:fixed;
+  top:0;
+  left:0;
+
+  width:100%;
+  height:100%;
+
+  pointer-events:none;
+  z-index:9999;
+
 }
 
 
+.cursor-vertical {
 
-.project-description {
-  padding-left: 0;
-  margin-top: 0;
-  padding-bottom: 10vh;
-  padding-top: 5vh;
+  position:absolute;
+
+  top:0;
+
+  width:2px;
+  height:100%;
+
+  background: var(--accent-color);
+
 }
 
 
+.cursor-horizontal {
 
-.detailsL {
-  width: 100%;
-  min-width: 0;
+  position:absolute;
+
+  left:0;
+
+  width:100%;
+  height:2px;
+
+ background: var(--accent-color);
+
 }
 
 
-
-
-
-
-.project-title{
-  font-size:var(--font-size-nav);
- line-height: 0.5vh;
-}
-
-.project-text {
-  grid-area: projectText;
-  min-width: 0;
-  min-height: 0;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-
-  overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.project-text::-webkit-scrollbar {
-  display: none;
-}
 
 
 
@@ -207,54 +388,6 @@ padding-left: 12vw;
 
 
 @media (max-width: 1000px) and (orientation: landscape) {
-
-
-
-  .main {
-
-    --gallery-row-height: 60vh;
-
-    grid-template-areas:
-
-      "navSide navL navR"
-
-      "mainSide mainL projectText"
-
-      "detailsSide detailsL detailsL";
-
-    grid-template-columns: 4vw 4fr  3fr;
-
-    grid-template-rows:
-
-      5vh
-
-      var(--gallery-row-height)
-
-      20vh;
-
-  }
-
-.main-l {
-  height: 100%;
-  width: auto;
-  aspect-ratio: 4 / 3;
-}
-
-
-
-.project-content,
-.project-gallery {
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-}
-
-.project-image{
-  object-fit: contain;
-}
-
-
 
 
 
@@ -269,176 +402,81 @@ padding-left: 12vw;
 
 
 @media (max-width: 1000px) and (orientation: portrait) {
-.main {
-  grid-template-columns: 11vw minmax(0, 1fr);
 
-  grid-template-areas:
-    ". nav"
-    "header gallery"
-    ". info"
-    ". description";
+  .header-grid{
+    display: grid;
+    grid-template-areas:
+    "headerL"
+    "headerR";
+
+    grid-template-columns: 1fr;
+    grid-template-rows:
+auto auto ;
+  padding-left: 6vw;
+    gap: 0;
+}
+
+.headerR{
+  text-align: left;
+  padding-top: 0;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
 }
 
 
 
-  .container {
+
+
+
+
+
+
+
+
+.main {
   display: grid;
 
-  grid-template-columns:
-   1fr;
-
-  column-gap: 2vw;
-
-
-
-    grid-template-rows:
-
-      auto
-
-      8vh
-
-      1fr;
-
   grid-template-areas:
-  "header-l"
-  "header-r"
-  "main";
-  
+    "navSide navL "
+    "mainSide mainL"
+    ". mainR"
+    ".  detailsL ";
+
+  grid-template-columns:
+    4vw 1fr;
+
+grid-template-rows:
+  5vh auto auto auto;
+
+  gap: 2vh 2vw;
+
+width: 100vw;
 
 
-  height: auto;
-  min-height: 100vh;
-padding-bottom: 8vh;
-  }
-
-.main {
-  grid-template-columns: 6vw minmax(0, 1fr);
-
-
-grid-template-areas:
-  ". nav"
-  "header gallery"
-  ". info"
-  ". description";
-
-  grid-template-rows:
-  auto
-  auto
-  auto
-  auto;
-}
-
-.main > .navSide,
-.main > .navR,
-.main > .detailsSide,
-.main > .detailsR {
-  display: none;
-}
-
-.header-l{
-
-  text-align: left;
-   padding-top: 2vh;
-  padding-left: 14vw;
-  
-}
-
-.header-r{
-
-  padding: 0vw;
-  padding-left: 14vw;
- 
-  display: flex;
-  flex-direction: column;
-  text-align: left;
+    padding-left: 8vw;
 
 }
 
 
-.navL {
-  grid-area: nav;
+
+.detailsL{
+  margin-top: 4vh;
 }
 
-.mainSide {
-  grid-area: header;
-}
+.project-text{
 
-.main-l {
-  grid-area: gallery;
-}
-
-.project-text {
-  grid-area: info;
-  min-width: 0;
-  min-height: 0;
-  overflow-y: visible;
-}
-
-
-
-.main-l {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3;
-}
-
-.main-l .project-content {
-  width: 100%;
-  height: 100%;
-}
-
-.main-l .project-gallery {
-  width: 100%;
-  height: 100%;
-}
-
-.main-l .project-image {
-  display: none;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.main-l .project-image.active {
-  display: block;
-}
-
-.mainSide {
-  grid-area: header;
-  height: 100%;
-  overflow: visible;
-}
-.detailsL {
-  grid-area: description;
-  display: block;
-  width: 100%;
-  min-width: 0;
-  height: auto;
-}
-
-
-.project-header {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.project-name {
-  grid-area: header;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  white-space: nowrap;
-}
-
-
-
-.project-description{
-  padding: 0vh;
-}
-
-.project-credits{
   padding-left: 0vw;
 }
+
 }
+
+
+
+
+
+
+
+
+

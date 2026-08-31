@@ -5,5 +5,5 @@ Der dreigeschossige Neubau ergänzt die Schulanlage Tischmacherhof als prägnant
 Ort: Galgenen
 Zeitraum: 2022-2026
 Art: Wettbewerb, selektiv, 3. Preis
-Status: Abgeschlossen, Referenz BDE
+Status: Referenz, Abgeschlossen
 Nummer: NEIN
