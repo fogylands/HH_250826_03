@@ -245,32 +245,36 @@ function generateProjects() {
        GATHER IMAGES
     ------------------------- */
 
-    const images = {};
+const images = {};
 
-    const folders =
-      fs.readdirSync(projectPath);
+const folders =
+  fs.readdirSync(projectPath);
 
-    for (const folder of folders) {
+for (const folder of folders) {
 
-      const folderPath =
-        path.join(projectPath, folder);
+  const folderPath =
+    path.join(projectPath, folder);
 
-      if (!fs.statSync(folderPath).isDirectory()) {
-        continue;
-      }
+  if (!fs.statSync(folderPath).isDirectory()) {
+    continue;
+  }
 
-const folderImages =
-  fs.readdirSync(folderPath)
-    .filter(file =>
-      /\.(jpg|jpeg|png|webp)$/i.test(file)
-    )
-    .sort()
-    .map(file =>
-      file.replace(/\.(jpeg|jpg|png|webp)$/i, '.jpg')
-    );
+  const folderImages =
+    fs.readdirSync(folderPath)
+      .filter(file =>
+        /\.(jpg|jpeg|png|webp)$/i.test(file)
+      )
+      .sort()
+      .map(file => ({
+        original:
+          `libraries/03_Projects/${projectNumber}/${folder}/${file}`,
 
-images[folder] = folderImages;}
+        thumbnail:
+          `libraries/03_Projects/_thumbnails/${projectNumber}/${folder}/${path.parse(file).name}.jpg`
+      }));
 
+  images[folder] = folderImages;
+}
 
     /* -------------------------
        ADD PROJECT

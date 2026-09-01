@@ -38,29 +38,74 @@
     "details": "Ort: Winterthur\nZeitraum: 2018\nArt: Wettbewerb, offen, honoriert\nStatus: Abgeschlossen\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
-        "HH_WEBSITE_26012668.jpg",
-        "HH_WEBSITE_26012669.jpg",
-        "HH_WEBSITE_26012670.jpg",
-        "HH_WEBSITE_26012671.jpg",
-        "X_HH_WEBSITE_2608205.jpg"
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012668.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012668.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012669.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012669.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012670.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012670.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012671.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/HH_WEBSITE_26012671.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/X_HH_WEBSITE_2608205.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/1_VIS_FOTOS/X_HH_WEBSITE_2608205.jpg"
+        }
       ],
       "2_GRUNDRISS": [
-        "HH_WEBSITE_26082010.jpg",
-        "HH_WEBSITE_2608207.jpg",
-        "HH_WEBSITE_2608208.jpg",
-        "HH_WEBSITE_2608209.jpg"
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_26082010.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_26082010.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_2608207.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_2608207.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_2608208.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_2608208.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_2608209.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/2_GRUNDRISS/HH_WEBSITE_2608209.jpg"
+        }
       ],
       "3_SCHNITTE": [
-        "HH_WEBSITE_26082013.jpg"
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/3_SCHNITTE/HH_WEBSITE_26082013.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/3_SCHNITTE/HH_WEBSITE_26082013.jpg"
+        }
       ],
       "4_ANSICHTEN": [
-        "HH_WEBSITE_26082011.jpg",
-        "HH_WEBSITE_26082012.jpg"
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/4_ANSICHTEN/HH_WEBSITE_26082011.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/4_ANSICHTEN/HH_WEBSITE_26082011.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/4_ANSICHTEN/HH_WEBSITE_26082012.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/4_ANSICHTEN/HH_WEBSITE_26082012.jpg"
+        }
       ],
       "5_DETAILS_WEITERES": [
-        "HH_WEBSITE_26082014.jpg",
-        "HH_WEBSITE_26082015.jpg",
-        "HH_WEBSITE_2608206.jpg"
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/5_DETAILS_WEITERES/HH_WEBSITE_2608206.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/1900A_FOTOMUSEUM_WINTERTHUR_WINTERTHUR/5_DETAILS_WEITERES/HH_WEBSITE_2608206.jpg"
+        }
       ]
     }
   },
@@ -142,51 +187,162 @@
     "details": "Ort: Brig\nZeitraum: 2022\nArt: Master's thesis\nStatus: Abgeschlossen\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
-        "PRESSURED_NETWORK_01.jpg",
-        "PRESSURED_NETWORK_02.jpg",
-        "PRESSURED_NETWORK_03.jpg",
-        "PRESSURED_NETWORK_04.jpg",
-        "PRESSURED_NETWORK_05.jpg"
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_01.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_01.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_02.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_02.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_03.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_03.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_04.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_04.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_05.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/1_VIS_FOTOS/PRESSURED_NETWORK_05.jpg"
+        }
       ],
       "2_GRUNDRISS": [
-        "PRESSURED_NETWORK_30.jpg",
-        "PRESSURED_NETWORK_32.jpg"
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/2_GRUNDRISS/PRESSURED_NETWORK_30.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/2_GRUNDRISS/PRESSURED_NETWORK_30.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/2_GRUNDRISS/PRESSURED_NETWORK_32.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/2_GRUNDRISS/PRESSURED_NETWORK_32.jpg"
+        }
       ],
       "3_SCHNITTE": [
-        "PRESSURED_NETWORK_29.jpg",
-        "PRESSURED_NETWORK_31.jpg",
-        "PRESSURED_NETWORK_33.jpg"
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/3_SCHNITTE/PRESSURED_NETWORK_29.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/3_SCHNITTE/PRESSURED_NETWORK_29.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/3_SCHNITTE/PRESSURED_NETWORK_31.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/3_SCHNITTE/PRESSURED_NETWORK_31.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/3_SCHNITTE/PRESSURED_NETWORK_33.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/3_SCHNITTE/PRESSURED_NETWORK_33.jpg"
+        }
       ],
       "4_ANSICHTEN": [
-        "PRESSURED_NETWORK_19.jpg",
-        "PRESSURED_NETWORK_34.jpg",
-        "PRESSURED_NETWORK_37.jpg"
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/4_ANSICHTEN/PRESSURED_NETWORK_19.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/4_ANSICHTEN/PRESSURED_NETWORK_19.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/4_ANSICHTEN/PRESSURED_NETWORK_34.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/4_ANSICHTEN/PRESSURED_NETWORK_34.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/4_ANSICHTEN/PRESSURED_NETWORK_37.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/4_ANSICHTEN/PRESSURED_NETWORK_37.jpg"
+        }
       ],
       "5_DETAILS_WEITERES": [
-        "PRESSURED_NETWORK_06.jpg",
-        "PRESSURED_NETWORK_07.jpg",
-        "PRESSURED_NETWORK_08.jpg",
-        "PRESSURED_NETWORK_09.jpg",
-        "PRESSURED_NETWORK_10.jpg",
-        "PRESSURED_NETWORK_11.jpg",
-        "PRESSURED_NETWORK_12.jpg",
-        "PRESSURED_NETWORK_13.jpg",
-        "PRESSURED_NETWORK_14.jpg",
-        "PRESSURED_NETWORK_15.jpg",
-        "PRESSURED_NETWORK_16.jpg",
-        "PRESSURED_NETWORK_17.jpg",
-        "PRESSURED_NETWORK_18.jpg",
-        "PRESSURED_NETWORK_20.jpg",
-        "PRESSURED_NETWORK_21.jpg",
-        "PRESSURED_NETWORK_22.jpg",
-        "PRESSURED_NETWORK_23.jpg",
-        "PRESSURED_NETWORK_24.jpg",
-        "PRESSURED_NETWORK_25.jpg",
-        "PRESSURED_NETWORK_26.jpg",
-        "PRESSURED_NETWORK_27.jpg",
-        "PRESSURED_NETWORK_28.jpg",
-        "PRESSURED_NETWORK_35.jpg",
-        "PRESSURED_NETWORK_36.jpg"
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_06.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_06.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_07.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_07.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_08.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_08.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_09.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_09.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_10.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_10.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_11.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_11.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_12.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_12.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_13.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_13.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_14.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_14.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_15.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_15.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_16.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_16.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_17.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_17.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_18.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_18.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_20.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_20.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_21.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_21.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_22.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_22.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_23.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_23.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_24.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_24.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_25.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_25.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_26.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_26.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_27.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_27.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_28.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_28.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_35.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_35.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_36.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2100A_PRESSURED_NETWORKS_BRIG/5_DETAILS_WEITERES/PRESSURED_NETWORK_36.jpg"
+        }
       ]
     }
   },
@@ -203,42 +359,126 @@
     "details": "Ort: Hinteregg\nZeitraum: 2023-\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, In Bearbeitung\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
-        "1_HH_WEBSITE_26012693.jpg",
-        "HH_WEBSITE_26012692.jpg",
-        "HH_WEBSITE_26012694.jpg",
-        "HH_WEBSITE_26012695.jpg",
-        "Z_HH_WEBSITE_26012690.jpg",
-        "Z_HH_WEBSITE_26012691.jpg"
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/1_HH_WEBSITE_26012693.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/1_HH_WEBSITE_26012693.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012692.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012692.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012694.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012694.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012695.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012695.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012690.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012690.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012691.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012691.jpg"
+        }
       ],
       "2_GRUNDRISSE": [
-        "HH_WEBSITE_26082010.jpg",
-        "HH_WEBSITE_26082011.jpg",
-        "HH_WEBSITE_26082012.jpg",
-        "HH_WEBSITE_26082014.jpg",
-        "HH_WEBSITE_26082015.jpg",
-        "HH_WEBSITE_26082016.jpg",
-        "HH_WEBSITE_2608208.jpg",
-        "HH_WEBSITE_2608209.jpg"
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082010.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082010.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082011.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082011.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082012.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082012.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082014.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082014.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082015.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082015.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082016.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_26082016.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_2608208.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_2608208.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_2608209.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISSE/HH_WEBSITE_2608209.jpg"
+        }
       ],
       "3_SCHNITTE": [
-        "HH_WEBSITE_260126105.jpg",
-        "HH_WEBSITE_260126107.jpg",
-        "HH_WEBSITE_260126108.jpg",
-        "HH_WEBSITE_260126109.jpg"
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126105.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126105.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126107.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126107.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126108.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126108.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126109.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126109.jpg"
+        }
       ],
       "4_ANSICHTEN": [
-        "HH_WEBSITE_260126110.jpg",
-        "HH_WEBSITE_260126111.jpg",
-        "HH_WEBSITE_260126113.jpg",
-        "Z_HH_WEBSITE_260126112.jpg",
-        "Z_HH_WEBSITE_260126114.jpg"
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126110.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126110.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126111.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126111.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126113.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126113.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126112.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126112.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126114.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126114.jpg"
+        }
       ],
       "5_DETAILS_WEITERES": [
-        "1_HH_WEBSITE_260126117.jpg",
-        "1_HH_WEBSITE_260126118.jpg",
-        "1_HH_WEBSITE_260126119.jpg",
-        "HH_WEBSITE_260126115.jpg",
-        "HH_WEBSITE_260126116.jpg"
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126117.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126117.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126118.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126118.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126119.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126119.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126115.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126115.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126116.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126116.jpg"
+        }
       ]
     }
   },
@@ -294,35 +534,98 @@
     "details": "Ort: Lupfig\nZeitraum: 2025\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, Abgeschlossen\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
-        "1_HH_WEBSITE_2608204.jpg",
-        "2_HH_WEBSITE_2608205.jpg",
-        "3_HH_WEBSITE_2608203.jpg",
-        "X_HH_WEBSITE_260820.jpg",
-        "X_HH_WEBSITE_2608202.jpg"
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/1_HH_WEBSITE_2608204.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/1_HH_WEBSITE_2608204.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/2_HH_WEBSITE_2608205.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/2_HH_WEBSITE_2608205.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/3_HH_WEBSITE_2608203.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/3_HH_WEBSITE_2608203.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_260820.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_260820.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_2608202.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_2608202.jpg"
+        }
       ],
       "2_GRUNDRISS": [
-        "HH_WEBSITE_26082010.jpg",
-        "HH_WEBSITE_2608206.jpg",
-        "HH_WEBSITE_2608207.jpg",
-        "HH_WEBSITE_2608208.jpg",
-        "HH_WEBSITE_2608209.jpg"
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_26082010.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_26082010.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608206.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608206.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608207.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608207.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg"
+        }
       ],
       "3_SCHNITTE": [
-        "HH_WEBSITE_260820.jpg",
-        "HH_WEBSITE_2608202.jpg",
-        "HH_WEBSITE_2608203.jpg"
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_260820.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_260820.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608202.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608202.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608203.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608203.jpg"
+        }
       ],
       "4_ANSICHTEN": [
-        "HH_WEBSITE_26082011.jpg",
-        "HH_WEBSITE_26082012.jpg",
-        "HH_WEBSITE_26082013.jpg"
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082011.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082011.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082012.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082012.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082013.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082013.jpg"
+        }
       ],
       "5_DETAILS_WEITERES": [
-        "HH_WEBSITE_26082014.jpg",
-        "HH_WEBSITE_26082015.jpg",
-        "HH_WEBSITE_26082016.jpg",
-        "HH_WEBSITE_26082017.jpg",
-        "HH_WEBSITE_26082018.jpg"
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082016.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082016.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082017.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082017.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082018.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082018.jpg"
+        }
       ]
     }
   },
@@ -339,28 +642,70 @@
     "details": "Ort: Winterthur\nZeitraum: 2022-2026\nArt: Direktauftrag\nStatus: Referenz, Realisiert\nNummer: NEIN",
     "images": {
       "1_VIS_FOTOS": [
-        "1_2114_ROEMERSTRASSE_1_VIS_01.jpg",
-        "2_bde_roemerstrasse_128177.jpg",
-        "3_bde_roemerstrasse_128018.jpg",
-        "4_bde_roemerstrasse_127933_1.jpg",
-        "5_bde_roemerstrasse_127848.jpg",
-        "6_bde_roemerstrasse_127979.jpg"
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/1_2114_ROEMERSTRASSE_1_VIS_01.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/1_2114_ROEMERSTRASSE_1_VIS_01.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/2_bde_roemerstrasse_128177.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/2_bde_roemerstrasse_128177.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/3_bde_roemerstrasse_128018.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/3_bde_roemerstrasse_128018.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/4_bde_roemerstrasse_127933_1.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/4_bde_roemerstrasse_127933_1.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/5_bde_roemerstrasse_127848.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/5_bde_roemerstrasse_127848.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/6_bde_roemerstrasse_127979.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/6_bde_roemerstrasse_127979.jpg"
+        }
       ],
       "2_GRUNDRISS": [
-        "2114_ROEMERSTRASSE_02.jpg",
-        "2114_ROEMERSTRASSE_03.jpg",
-        "2114_ROEMERSTRASSE_04.jpg"
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_02.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_02.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_03.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_03.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_04.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_04.jpg"
+        }
       ],
       "3_SCHNITTE": [
-        "2114_ROEMERSTRASSE_07.jpg",
-        "2114_ROEMERSTRASSE_08.jpg"
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_07.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_07.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_08.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_08.jpg"
+        }
       ],
       "4_ANSICHTEN": [
-        "2114_ROEMERSTRASSE_05.jpg",
-        "2114_ROEMERSTRASSE_06.jpg"
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_05.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_05.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_06.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_06.jpg"
+        }
       ],
       "5_DETAILS_WEITERES": [
-        "2114_ROEMERSTRASSE_09.jpg"
+        {
+          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/5_DETAILS_WEITERES/2114_ROEMERSTRASSE_09.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/5_DETAILS_WEITERES/2114_ROEMERSTRASSE_09.jpg"
+        }
       ]
     }
   },
@@ -390,31 +735,82 @@
     "details": "Ort: Zürich\nZeitraum: 2025-\nArt: Direktauftrag\nStatus: In Bearbeitung",
     "images": {
       "1_VIS_FOTOS": [
-        "1_2305_GUBELSTRASSE_260311.jpg",
-        "2_2305_TREPPENHAUS_A_260811.jpg",
-        "3_2305_GARDEROBE_A_260810.jpg",
-        "4_2305_WOHNEN_A_260810.jpg",
-        "5_2305_ERKER_A_260807.jpg",
-        "6_2305_BAD_A_260810.jpg"
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/1_2305_GUBELSTRASSE_260311.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/1_2305_GUBELSTRASSE_260311.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/2_2305_TREPPENHAUS_A_260811.jpeg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/2_2305_TREPPENHAUS_A_260811.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/3_2305_GARDEROBE_A_260810.jpeg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/3_2305_GARDEROBE_A_260810.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/4_2305_WOHNEN_A_260810.jpeg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/4_2305_WOHNEN_A_260810.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/5_2305_ERKER_A_260807.jpeg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/5_2305_ERKER_A_260807.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/6_2305_BAD_A_260810.jpeg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/1_VIS_FOTOS/6_2305_BAD_A_260810.jpg"
+        }
       ],
       "2_GRUNDRISS": [
-        "2305-32-2000-0-ERDGESCHOSS.jpg",
-        "2305-32-2010-1-OBERGESCHOSS.jpg",
-        "2305-32-2040-4-ATTIKA.jpg",
-        "2305-32-2199-1-UNTERGESCHOSS.jpg"
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2000-0-ERDGESCHOSS.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2000-0-ERDGESCHOSS.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2010-1-OBERGESCHOSS.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2010-1-OBERGESCHOSS.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2040-4-ATTIKA.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2040-4-ATTIKA.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2199-1-UNTERGESCHOSS.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/2_GRUNDRISS/2305-32-2199-1-UNTERGESCHOSS.jpg"
+        }
       ],
       "3_SCHNITTE": [
-        "2305-32-3000-SCHNITT LS-A.jpg",
-        "2305-32-3100-SCHNITT QS-A.jpg"
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/3_SCHNITTE/2305-32-3000-SCHNITT LS-A.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/3_SCHNITTE/2305-32-3000-SCHNITT LS-A.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/3_SCHNITTE/2305-32-3100-SCHNITT QS-A.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/3_SCHNITTE/2305-32-3100-SCHNITT QS-A.jpg"
+        }
       ],
       "4_ANSICHTEN": [
-        "2305-32-4010-ANSICHT NORD.jpg",
-        "2305-32-4020-ANSICHT OST.jpg"
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/4_ANSICHTEN/2305-32-4010-ANSICHT NORD.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/4_ANSICHTEN/2305-32-4010-ANSICHT NORD.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/4_ANSICHTEN/2305-32-4020-ANSICHT OST.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/4_ANSICHTEN/2305-32-4020-ANSICHT OST.jpg"
+        }
       ],
       "5_DETAILS_WEITERES": [
-        "1_GUBI_03.jpg",
-        "2_GUBI_02.jpg",
-        "3_GUBI_01.jpg"
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/5_DETAILS_WEITERES/1_GUBI_03.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/5_DETAILS_WEITERES/1_GUBI_03.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/5_DETAILS_WEITERES/2_GUBI_02.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/5_DETAILS_WEITERES/2_GUBI_02.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/5_DETAILS_WEITERES/3_GUBI_01.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2305_WOHNHAUS_GUBELSTRASSE_ZUERICH/5_DETAILS_WEITERES/3_GUBI_01.jpg"
+        }
       ]
     }
   },

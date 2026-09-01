@@ -193,8 +193,7 @@ projectHeader.innerHTML = `
       const image =
         document.createElement('img');
 
-      image.src =
-        `../../libraries/03_Projects/_thumbnails/${project.id}/${activeMobileCategory}/${img}`;
+      image.src = '../../' + img.thumbnail;
 
       image.alt =
         mobileCategories[activeMobileCategory];
@@ -319,8 +318,7 @@ standardCategories.forEach(category => {
     images.forEach((img, idx) => {
       const imgElement = document.createElement('img');
 
-      imgElement.src =
-        `../../libraries/03_Projects/_thumbnails/${project.id}/${category}/${img}`;
+    imgElement.src = '../../' + img.thumbnail;
 
       imgElement.alt = category;
       imgElement.classList.add('project-image');

@@ -487,7 +487,7 @@ grid-template-columns:
 
   max-width: auto;
   box-sizing: border-box;
-  padding-left: 6vw;
+  padding-left: 8vw;
 }
 
 
@@ -680,7 +680,7 @@ padding-left: 6vw;
 
   gap: 2vh 0;
   overflow: visible;
-  padding-left: 6vw;
+  padding-left: 9vw;
       padding-right: 2vw;
     box-sizing: border-box;
 

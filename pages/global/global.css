@@ -41,9 +41,9 @@
 
 @media (max-width: 1000px) and (orientation: portrait) {
   :root {
-    --font-size-nav: 1.2rem;
+    --font-size-nav: 1rem;
     --letter-spacing-nav: 0.34em;
-    --font-size-body: 0.9rem;
+    --font-size-body: 0.7rem;
     --letter-spacing-body: 0.08em;
   }
 }
@@ -72,7 +72,7 @@ body {
   font-family: 'OpenSans_Light', monospace;
   font-style: normal;
     max-width: 100%;
-overflow-x: hidden;
+overflow-x: visible;
 }
 
 

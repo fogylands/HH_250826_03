@@ -82,9 +82,7 @@ body.works .work-row [data-column] {
 }
 
 
-.view-nav-r{
-  padding-bottom: 2vh;
-}
+
 
 
 
@@ -202,7 +200,7 @@ body.works .works-project [data-clickable="true"]:hover {
   height: 100vh;
   grid-template-rows:
 
-    10vh  1vh 1fr;
+    10vh  max-content 1fr;
 
 
   
