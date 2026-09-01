@@ -737,6 +737,7 @@ padding-left: 6vw;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  font-size: var(--font-size-nav);
 }
 
 .detailsSide{
@@ -854,6 +855,10 @@ display: block;
 align-self: start;
 }
 
+
+.employee-list p{
+  font-size: var(--font-size-nav);
+}
 
 .employee-content {
   width: 100%;

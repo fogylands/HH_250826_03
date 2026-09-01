@@ -33,9 +33,9 @@
 
 @media (max-width: 1000px) and (orientation: landscape) {
   :root {
-    --font-size-nav: 1.3rem;
+    --font-size-nav: 0.7rem;
      --letter-spacing-nav: 0.34em;
-    --font-size-body: 0.9rem;
+    --font-size-body: 0.5rem;
     --letter-spacing-body: 0.08em;
   }
 }
@@ -227,7 +227,7 @@ grid-area: detailsR;
   display: flex;
 flex-direction: column;
 justify-content: flex-end;
-
+font-size: var(--font-size-nav);
 }
 
 .project-header{

@@ -41,9 +41,9 @@
 
 @media (max-width: 1000px) and (orientation: portrait) {
   :root {
-    --font-size-nav: 0.7rem;
+    --font-size-nav: 1rem;
     --letter-spacing-nav: 0.34em;
-    --font-size-body: 0.5rem;
+    --font-size-body: 0.7rem;
     --letter-spacing-body: 0.08em;
   }
 }
