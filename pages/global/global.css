@@ -32,18 +32,18 @@
 
 @media (max-width: 1000px) and (orientation: landscape) {
   :root {
-    --font-size-nav: 1.3rem;
+    --font-size-nav: 0.7rem;
      --letter-spacing-nav: 0.34em;
-    --font-size-body: 0.9rem;
+    --font-size-body: 0.5rem;
     --letter-spacing-body: 0.08em;
   }
 }
 
 @media (max-width: 1000px) and (orientation: portrait) {
   :root {
-    --font-size-nav: 1rem;
+    --font-size-nav: 0.7rem;
     --letter-spacing-nav: 0.34em;
-    --font-size-body: 0.7rem;
+    --font-size-body: 0.5rem;
     --letter-spacing-body: 0.08em;
   }
 }
