@@ -164,12 +164,13 @@ function renderProject(project, nav) {
   if (!project.images) project.images = {};
 
 const categories = {
-  "1_VIS_FOTOS": "FOTOS",
+  "1_VIS_FOTOS": "BILD",
   "2_GRUNDRISS": "GRUNDRISS",
-  "3_SCHNITTE": "SCHNITTE",
-  "4_ANSICHTEN": "ANSICHTEN",
-  "5_DETAILS_WEITERES": "DETAILS"
+  "3_SCHNITTE": "SCHNITT",
+  "4_ANSICHTEN": "ANSICHT",
+  "5_DETAILS_WEITERES": "WEITERE"
 };
+
 
 Object.keys(categories).forEach(category => {
   project.images[category] ||= [];
