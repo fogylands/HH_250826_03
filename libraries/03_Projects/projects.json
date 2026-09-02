@@ -348,139 +348,16 @@
   },
   {
     "number": "2200A",
-    "name": "WOHNUEBERBAUUNG GUETETLIWEG",
-    "id": "2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG",
-    "description": "Die Überbauung in Hinteregg entwickelt aus der heterogenen dörflichen Umgebung ein Ensemble aus zwei Langhäusern und zwei Punkthäusern, das vertraute Bautypologien neu interpretiert. In lockerer Setzung fügen sich die Baukörper mit unterschiedlich ausgerichteten Satteldächern in die Kernzone ein und schaffen eine Balance zwischen Offenheit und gemeinschaftlicher Dichte. Die differenzierten Typologien ermöglichen ein vielfältiges Wohnangebot für unterschiedliche Lebensformen und fördern eine sozial durchmischte Bewohnerschaft. Naturnah gestaltete Freiräume, die Renaturierung des Lauenbachs sowie eine fein abgestufte Zonierung strukturieren den Aussenraum und stärken Privatheit wie auch gemeinschaftliche Nutzung. Eine klimaschonende Holzbauweise, einfache Tragstrukturen und ein optimierter Energieeinsatz gewährleisten eine nachhaltige und zukunftsfähige Gesamtanlage.\n<br>",
-    "credits": "Auftraggeber: Privat<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: Ramon Grendene, Design, Craft und Permaculture<br>Bauingenieur: Aschwanden & Partner<br>Holzbauingenieur: Timbatec AG<br>Elektroplanung: KMN Elektro - Ingenieurbüro AG<br>HLS-Planung: Gerber + Partner Haustechnik AG<br>Bauphysik: Braune Roth AG<br>Brandschutz: AFC AG<br>Visualisierungen: 360360 Onur Özman",
+    "name": "WOHNUEBERBAUUNG GUEETETLIWEG",
+    "id": "2200A_WOHNUEBERBAUUNG_GUEETETLIWEG_HINTEREGG",
+    "description": "Lorem ipsum\n<br>",
+    "credits": "",
     "location": "Hinteregg",
     "year": "2023-",
     "type": "Studienauftrag, 1. Preis",
     "status": "Referenz, In Bearbeitung",
     "details": "Ort: Hinteregg\nZeitraum: 2023-\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, In Bearbeitung\nNummer: NEIN",
-    "images": {
-      "1_VIS_FOTOS": [
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/1_HH_WEBSITE_26012693.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/1_HH_WEBSITE_26012693.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012692.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012692.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012694.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012694.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012695.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/HH_WEBSITE_26012695.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012690.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012690.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012691.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/1_VIS_FOTOS/Z_HH_WEBSITE_26012691.jpg"
-        }
-      ],
-      "2_GRUNDRISS": [
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082010.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082010.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082011.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082011.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082012.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082012.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082014.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082014.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082015.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082015.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082016.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_26082016.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg"
-        }
-      ],
-      "3_SCHNITTE": [
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126105.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126105.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126107.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126107.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126108.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126108.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126109.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/3_SCHNITTE/HH_WEBSITE_260126109.jpg"
-        }
-      ],
-      "4_ANSICHTEN": [
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126110.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126110.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126111.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126111.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126113.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/HH_WEBSITE_260126113.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126112.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126112.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126114.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/4_ANSICHTEN/Z_HH_WEBSITE_260126114.jpg"
-        }
-      ],
-      "5_DETAILS_WEITERES": [
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126117.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126117.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126118.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126118.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126119.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/1_HH_WEBSITE_260126119.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126115.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126115.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126116.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2200A_WOHNUEBERBAUUNG_GUETETLIWEG_HINTEREGG/5_DETAILS_WEITERES/HH_WEBSITE_260126116.jpg"
-        }
-      ]
-    }
+    "images": {}
   },
   {
     "number": "2200B",
@@ -523,116 +400,8 @@
   },
   {
     "number": "2300A",
-    "name": "AREALENTWICKLUNG PFRUNDLAND",
-    "id": "2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG",
-    "description": "Text folgt.\n<br>",
-    "credits": "Auftraggeber: Lägern Wohnen<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: Bernhard Zingler Landscape Projects<br>Visualisierungen: Atelier Brunecky",
-    "location": "Lupfig",
-    "year": "2025",
-    "type": "Studienauftrag, 1. Preis",
-    "status": "Referenz, Abgeschlossen",
-    "details": "Ort: Lupfig\nZeitraum: 2025\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, Abgeschlossen\nNummer: NEIN",
-    "images": {
-      "1_VIS_FOTOS": [
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/1_HH_WEBSITE_2608204.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/1_HH_WEBSITE_2608204.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/2_HH_WEBSITE_2608205.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/2_HH_WEBSITE_2608205.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/3_HH_WEBSITE_2608203.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/3_HH_WEBSITE_2608203.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_260820.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_260820.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_2608202.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_2608202.jpg"
-        }
-      ],
-      "2_GRUNDRISS": [
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_26082010.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_26082010.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608206.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608206.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608207.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608207.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg"
-        }
-      ],
-      "3_SCHNITTE": [
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_260820.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_260820.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608202.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608202.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608203.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608203.jpg"
-        }
-      ],
-      "4_ANSICHTEN": [
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082011.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082011.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082012.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082012.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082013.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082013.jpg"
-        }
-      ],
-      "5_DETAILS_WEITERES": [
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082016.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082016.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082017.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082017.jpg"
-        },
-        {
-          "original": "libraries/03_Projects/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082018.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082018.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "number": "2300B",
     "name": "WOHNHAUS ROEMERSTRASSE",
-    "id": "2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR",
+    "id": "2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR",
     "description": "Das Wohnhaus liegt mit seinem für das Quartier typischen Vorgarten direkt an der Römerstrasse. Es ist länger als seine älteren Nachbarn, beherbergt 15 Mietwohnungen und verfügt über zwei Hauseingänge. Drei gegliederte Gebäudeteile zeichnen sich jeweils in der Höhe der Traufe ab. Das bewegte Schrägdach schafft den Bezug zum Wohnquartier. Die ressourcenschonende Holzbauweise ist in ihrer Struktur präsent und prägt mit Vollholzdecken die Raumatmosphäre der Wohnungen.\n<br>",
     "credits": "Auftraggeber: Kübler Immobilien AG<br>Architektur: BDE Architekten, Colin Hössler PL<br>Bauingenieur: Rolf Soller AG<br>Holzbauingenieur: Timbatec AG<br>Elektroplanung: KMN Elektro - Ingenieurbüro AG<br>HLS-Planung: SWT-Gebäudetechnik GmbH<br>Bauphysik: Braune Roth AG<br>Brandschutz: Timbatec AG<br>Bauleitung: Yves Trostel & Colin Hössler<br>Bilder: Roland Bernath, Colin Hössler",
     "location": "Winterthur",
@@ -643,68 +412,176 @@
     "images": {
       "1_VIS_FOTOS": [
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/1_2114_ROEMERSTRASSE_1_VIS_01.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/1_2114_ROEMERSTRASSE_1_VIS_01.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/1_2114_ROEMERSTRASSE_1_VIS_01.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/1_2114_ROEMERSTRASSE_1_VIS_01.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/2_bde_roemerstrasse_128177.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/2_bde_roemerstrasse_128177.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/2_bde_roemerstrasse_128177.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/2_bde_roemerstrasse_128177.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/3_bde_roemerstrasse_128018.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/3_bde_roemerstrasse_128018.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/3_bde_roemerstrasse_128018.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/3_bde_roemerstrasse_128018.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/4_bde_roemerstrasse_127933_1.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/4_bde_roemerstrasse_127933_1.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/4_bde_roemerstrasse_127933_1.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/4_bde_roemerstrasse_127933_1.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/5_bde_roemerstrasse_127848.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/5_bde_roemerstrasse_127848.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/5_bde_roemerstrasse_127848.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/5_bde_roemerstrasse_127848.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/6_bde_roemerstrasse_127979.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/6_bde_roemerstrasse_127979.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/6_bde_roemerstrasse_127979.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/1_VIS_FOTOS/6_bde_roemerstrasse_127979.jpg"
         }
       ],
       "2_GRUNDRISS": [
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_02.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_02.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_02.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_02.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_03.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_03.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_03.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_03.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_04.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_04.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_04.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/2_GRUNDRISS/2114_ROEMERSTRASSE_04.jpg"
         }
       ],
       "3_SCHNITTE": [
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_07.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_07.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_07.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_07.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_08.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_08.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_08.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/3_SCHNITTE/2114_ROEMERSTRASSE_08.jpg"
         }
       ],
       "4_ANSICHTEN": [
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_05.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_05.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_05.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_05.jpg"
         },
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_06.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_06.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_06.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/4_ANSICHTEN/2114_ROEMERSTRASSE_06.jpg"
         }
       ],
       "5_DETAILS_WEITERES": [
         {
-          "original": "libraries/03_Projects/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/5_DETAILS_WEITERES/2114_ROEMERSTRASSE_09.jpg",
-          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/5_DETAILS_WEITERES/2114_ROEMERSTRASSE_09.jpg"
+          "original": "libraries/03_Projects/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/5_DETAILS_WEITERES/2114_ROEMERSTRASSE_09.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300A_WOHNHAUS_ROEMERSTRASSE_WINTERTHUR/5_DETAILS_WEITERES/2114_ROEMERSTRASSE_09.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "number": "2300B",
+    "name": "AREALENTWICKLUNG PFRUNDLAND",
+    "id": "2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG",
+    "description": "Text folgt.\n<br>",
+    "credits": "Auftraggeber: Lägern Wohnen<br>Architektur: BDE Architekten, Jason Hoffmann PL<br>Landschaftsarchitektur: Bernhard Zingler Landscape Projects<br>Visualisierungen: Atelier Brunecky",
+    "location": "Lupfig",
+    "year": "2025",
+    "type": "Studienauftrag, 1. Preis",
+    "status": "Referenz, Abgeschlossen",
+    "details": "Ort: Lupfig\nZeitraum: 2025\nArt: Studienauftrag, 1. Preis\nStatus: Referenz, Abgeschlossen\nNummer: NEIN",
+    "images": {
+      "1_VIS_FOTOS": [
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/1_HH_WEBSITE_2608204.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/1_HH_WEBSITE_2608204.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/2_HH_WEBSITE_2608205.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/2_HH_WEBSITE_2608205.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/3_HH_WEBSITE_2608203.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/3_HH_WEBSITE_2608203.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_260820.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_260820.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_2608202.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/1_VIS_FOTOS/X_HH_WEBSITE_2608202.jpg"
+        }
+      ],
+      "2_GRUNDRISS": [
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608206.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608206.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608207.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608207.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608208.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608209.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608210.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/2_GRUNDRISS/HH_WEBSITE_2608210.jpg"
+        }
+      ],
+      "3_SCHNITTE": [
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_260820.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_260820.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608202.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608202.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608203.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/3_SCHNITTE/HH_WEBSITE_2608203.jpg"
+        }
+      ],
+      "4_ANSICHTEN": [
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082011.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082011.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082012.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082012.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082013.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/4_ANSICHTEN/HH_WEBSITE_26082013.jpg"
+        }
+      ],
+      "5_DETAILS_WEITERES": [
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/1_HH_WEBSITE_26082017.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/1_HH_WEBSITE_26082017.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/2_HH_WEBSITE_26082018.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/2_HH_WEBSITE_26082018.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/3_HH_WEBSITE_26082016.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/3_HH_WEBSITE_26082016.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082014.jpg"
+        },
+        {
+          "original": "libraries/03_Projects/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg",
+          "thumbnail": "libraries/03_Projects/_thumbnails/2300B_AREALENTWICKLUNG_PFRUNDLAND_LUPFIG/5_DETAILS_WEITERES/HH_WEBSITE_26082015.jpg"
         }
       ]
     }
