@@ -19,6 +19,12 @@ body.index {
     "header-l header-r"
     "main main"
     "footer-l footer-r";
+
+
+  position: relative;
+
+  z-index: 1;
+
 }
 
 
@@ -65,12 +71,13 @@ body.index {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
+  z-index: 0;
   pointer-events: none;
   overflow: hidden;
 }
 
-.video-poster,
+
+
 .video-bg {
   position: absolute;
   top: 0;
@@ -78,9 +85,16 @@ body.index {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 1;
 }
 
 .video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: 2;
   opacity: 1;
   transition: opacity 0.3s ease;
@@ -90,9 +104,7 @@ body.index {
   opacity: 0;
 }
 
-.video-bg {
-  z-index: 1;
-}
+
 
 .video-bg::-webkit-media-controls {
   display: none !important;
