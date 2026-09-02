@@ -1,13 +1,17 @@
 
-  const mobileCategories = {
-  "1_VIS_FOTOS": "FOTOS",
+const mobileCategories = {
+  "1_BILD": "BILD",
+
   "2_GRUNDRISS": "GRUNDRISS",
-  "3_SCHNITTE": "SCHNITTE",
-  "4_ANSICHTEN": "ANSICHTEN",
-  "5_DETAILS_WEITERES": "DETAILS"
+
+  "3_SCHNITT": "SCHNITT",
+
+  "4_ANSICHT": "ANSICHT",
+
+  "5_WEITERE": "WEITERE"
 };
 
-let activeMobileCategory = "1_VIS_FOTOS";
+let activeMobileCategory = "1_BILD";
 let loadedProjects = [];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -74,13 +78,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     categoryRow.appendChild(spacer); 
 
-    const categoryTitles = {
-    "1_VIS_FOTOS": "FOTOS",
-    "2_GRUNDRISS": "GRUNDRISS",
-    "3_SCHNITTE": "SCHNITTE",
-    "4_ANSICHTEN": "ANSICHTEN",
-    "5_DETAILS_WEITERES": "DETAILS"
-    };
+const categoryTitles = {
+  "1_BILD": "BILD",
+
+  "2_GRUNDRISS": "GRUNDRISS",
+
+  "3_SCHNITT": "SCHNITT",
+
+  "4_ANSICHT": "ANSICHT",
+
+  "5_WEITERE": "WEITERE"
+};
 
     Object.values(categoryTitles).forEach(title =>{
     const categoryTitle = document.createElement('div');
@@ -255,13 +263,13 @@ async function renderProject(project) {
 
   if (!project.images) project.images = {};
 
-  const standardCategories = [
-    "1_VIS_FOTOS",
-    "2_GRUNDRISS",
-    "3_SCHNITTE",
-    "4_ANSICHTEN",
-    "5_DETAILS_WEITERES"
-  ];
+const standardCategories = [
+  "1_BILD",
+  "2_GRUNDRISS",
+  "3_SCHNITT",
+  "4_ANSICHT",
+  "5_WEITERE"
+];
 
   standardCategories.forEach(cat => {
     if (!Array.isArray(project.images[cat])) {

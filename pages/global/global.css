@@ -3,8 +3,8 @@
 ================================= */
 
 @font-face {
-  font-family: 'OpenSans_Regular';
-  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'OpenSans_SemiBold';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
 
 }
 
@@ -164,7 +164,7 @@ a.active {
 }
 
 .header-l {
-  font-family: 'Opensans_Regular';
+  font-family: 'Opensans_Semibold';
   padding-left: 8vw;
  letter-spacing:var(--letter-spacing-nav);
 }

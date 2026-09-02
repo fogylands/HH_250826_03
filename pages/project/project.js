@@ -90,18 +90,12 @@ projectText.classList.add('project-text');
 
 
 
-
-projectText.innerHTML = `
-  <div class="project-middle">
-    ${
-      project.credits
-      ? `<div class="project-credits">
-          ${project.credits}
-         </div>`
-      : ''
-    }
-  </div>
-`;
+header.innerHTML = `
+  <div class="project-name">
+    ${projectNumber}
+    <br>
+    <span>${project.name}</span>
+  </div>`;
 
 detailsL.innerHTML = `
   <div class="project-description">
@@ -164,11 +158,15 @@ function renderProject(project, nav) {
   if (!project.images) project.images = {};
 
 const categories = {
-  "1_VIS_FOTOS": "BILD",
+  "1_BILD": "BILD",
+
   "2_GRUNDRISS": "GRUNDRISS",
-  "3_SCHNITTE": "SCHNITT",
-  "4_ANSICHTEN": "ANSICHT",
-  "5_DETAILS_WEITERES": "WEITERE"
+
+  "3_SCHNITT": "SCHNITT",
+
+  "4_ANSICHT": "ANSICHT",
+
+  "5_WEITERE": "WEITERE"
 };
 
 

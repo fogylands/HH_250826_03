@@ -67,6 +67,9 @@ body.impressum .footer-l {
       "footer-r" !important;
   }
 
+
+
+
   body.impressum .header-l {
     grid-area: header-l !important;
   }
@@ -86,6 +89,15 @@ body.impressum .footer-l {
   body.impressum .footer-r {
     grid-area: footer-r !important;
   }
+
+
+
+
+  .header-l, .header-r{
+ font-family: 'Opensans_Semibold';
+
+}
+
 
 
 body.impressum .footer-l {

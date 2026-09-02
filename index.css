@@ -261,9 +261,17 @@ body.index {
   overflow-x: hidden;
 }
 
+
+.header-l, .header-r{
+ font-family: 'Opensans_Semibold';
+
+}
+
+
 .header-l {
   white-space: nowrap;
 }
+
 
 .header-r {
   padding-top: 0%;

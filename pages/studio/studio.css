@@ -471,6 +471,15 @@ font-size: var(--font-size-body);
 padding-left: 6vw;
   }
 
+
+
+
+.header-l, .header-r{
+
+ font-family: 'Opensans_Semibold';
+
+}
+
 .header-l{
 
   text-align: left;

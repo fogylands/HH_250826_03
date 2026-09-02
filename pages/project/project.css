@@ -4,8 +4,8 @@
 ================================= */
 
 @font-face {
-  font-family: 'OpenSans_Regular';
-  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'OpenSans_SemiBold';
+  src: url('../../libraries/03_Fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
 
 }
 
@@ -217,23 +217,31 @@ grid-area: detailsR;
 ================================= */
 
 
+
+
+
 .project-name {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 
-  writing-mode:vertical-rl;
-
-  transform:rotate(180deg);
-
-  display:block;
   display: flex;
-flex-direction: column;
-justify-content: flex-end;
-font-size: var(--font-size-nav);
-}
+  flex-direction: column;
+  justify-content: flex-end;
 
+  font-size: var(--font-size-nav);
+
+  max-height: 100%;
+  min-height: 0;
+
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 .project-header{
   display: flex;
-flex-direction: column;
-justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 0;
+
 }
 
 
@@ -288,7 +296,7 @@ justify-content: flex-end;
 }
 
 .headerL {
-  font-family: 'Opensans_Regular';
+   font-family: 'Opensans_Semibold';
   padding-left: 8vw;
 
 }
@@ -318,10 +326,7 @@ justify-content: flex-end;
 
 }
 
-.headerL{
-  font-family: 'OpenSans_Regular';
- 
-}
+
 
 
 .headerR{
@@ -429,6 +434,10 @@ auto auto ;
 
 
 
+.headerL, .headerR{
+ font-family: 'Opensans_Semibold';
+
+}
 
 
 
@@ -469,6 +478,28 @@ width: 100vw;
 .project-text{
 
   padding-left: 0vw;
+}
+.mainSide {
+  position: relative;
+}
+
+.project-header {
+  position: absolute;
+  inset: 0;
+}
+
+.project-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  height: 100%;
+  max-height: 100%;
+
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+
+  white-space: normal;
 }
 
 }
